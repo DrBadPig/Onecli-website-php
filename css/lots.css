@@ -1,0 +1,1473 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*MODALS*/
+
+/*SEND SUCCESS*/
+
+
+
+.current-balance {
+  border-radius: 8px 8px 0px 0px;
+  height: 30px;
+  width: calc(100% - 40px);
+  padding: 0px 20px;
+
+  position: absolute;
+  top: -30px;
+  background-color: #949bb7;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+.send-success-modal, .money-processing-modal, .ordering-modal, .send-friend-modal, .cart-modal, .refill-modal, .withdraw-modal {
+	width: 321px;
+	height: 169px;
+	padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.money-processing-modal {
+	width: 321px;
+	 height: 194px;
+}
+
+.ordering-modal {
+	width: 480px;
+	height: 460px;
+}
+
+.modal-full-wrapper {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	border: 2px solid #34C38D;
+	position: relative;
+	
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close-button svg {
+    margin: 10px 0px 0px 23px;
+    cursor: pointer;
+}
+
+.modal-full-wrapper p {
+	padding: 20px;
+	margin: 0px;
+	color: #6B6B6B;
+}
+
+.modal-full-wrapper hr {
+	color: #34C38D;
+	background-color: #34C38D;
+}
+
+.ordering-modal .modal-full-wrapper, .send-friend-modal .modal-full-wrapper, .cart-modal .modal-full-wrapper, .withdraw-modal .modal-full-wrapper {
+	justify-content: space-between;
+}
+
+.ordering-modal h2 {
+	margin: 60px 0px 0px 0px;
+}
+
+.ordering-modal .text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.ordering-modal .text > span {
+	margin: 6px 0px;
+	font-weight: 300;
+}
+
+.ordering-modal .text div {
+	font-weight: 300;
+	margin: 6px 0px;
+}
+
+.ordering-modal .text div .tip {
+	background-color: #949cb5;
+	color: #ffffff;
+	font-size: 12px;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+}
+
+.ordering-modal .choose-payment {
+	width: 90%;
+}
+
+.ordering-modal input[type=text] {
+	width: 90%;
+	border-bottom: 2px solid #34C38D;
+}
+
+.ordering-modal .btn {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 0px 0px 60px 0px;
+}
+
+/*SEND TO A FRIEND*/
+
+.send-friend-modal {
+	width: 379px;
+	height: 453px;
+	position: relative;
+}
+
+.send-friend-modal h2 {
+	margin: 60px 0px 0px 0px;
+}
+
+.send-friend-modal input[type=text] {
+	width: 90%;
+	border-bottom: 2px solid #34C38D;
+	color: #34C38D;
+}
+
+.send-friend-modal input::placeholder {
+	color: #34C38D;
+}
+
+.send-friend-modal .btn {
+	width: 90%;
+	padding: 12px 20px;
+}
+
+.send-friend-modal .btn:nth-child(7) {
+	background-color: #e8ebf3;
+	color: #000000;
+	margin: 10px 0px 0px 0px;
+}
+
+.send-friend-modal .btn:nth-child(8) {
+	margin: 0px 0px 40px 0px;
+}
+
+.send-friend-modal span:last-child {
+	font-size: 12px;
+	position: absolute;
+	bottom: 20px;
+}
+
+/*CART MODAL*/
+
+.cart-modal {
+	width: 1014px;
+	height: 532px;
+}
+
+.cart-modal .modal-full-wrapper {
+	justify-content: space-around;
+}
+
+.cart-modal .cart-table {
+	width: 100%;
+	height: 394px;
+	text-align: center;
+	border-spacing: 0px 12px;
+}
+
+.cart-table th {
+	color: #34C38D;
+	font-weight: 400;
+}
+
+.cart-table tr {
+	box-shadow: 0px 0.5px 3px 0px #7a7a7a;
+}
+
+.cart-table tr:hover, .cart-table tr:hover td:nth-child(2), .cart-table tr:hover td:nth-child(5) {
+	background-color: #34C38D;
+	color: #ffffff;
+}
+
+.cart-table tr:first-child {
+	box-shadow: none;
+}
+
+.cart-table tr:first-child:hover {
+	background-color: #ffffff;
+}
+
+.cart-table tr td:nth-child(2), .cart-table tr td:nth-child(5) {
+	color: #5A5A5A;
+}
+
+.cart-table td {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.cart-modal .bottom-menu {
+	width: 100%;
+	height: 50px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cart-modal .bottom-menu .pager {
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cart-modal .bottom-menu .pager svg {
+	cursor: pointer;
+}
+
+.cart-modal .bottom-menu .pager svg:hover path {
+	fill: #34c28d;
+}
+
+.cart-modal .bottom-menu .pager svg:hover g {
+	stroke: #34c28d;
+}
+
+.cart-modal .bottom-menu .type {
+	width: 50%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cart-modal .bottom-menu .type span > span {
+	cursor: pointer;
+}
+
+/*REFILL BALANCE MODAL*/
+
+.refill-modal {
+	width: 573px;
+	height: 532px;
+}
+
+.refill-modal .modal-full-wrapper {
+	justify-content: space-between;
+}
+
+.refill-modal h2 {
+	margin: 40px 0px 0px 0px;
+}
+
+.refill-modal .input {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px 180px 0px 0px;
+	position: relative;
+}
+
+.refill-modal .input input[type=text] {
+	padding: 10px 30px 10px 0px;
+}
+
+.refill-modal .input input[type=text]:focus {
+	border-bottom: 2px solid #34C38D;
+	color: #34C38D;
+}
+
+.refill-modal .input:nth-child(4) span {
+	margin: 0px 8px 0px 0px;
+}
+
+.refill-modal .input span:last-child {
+	margin: 0px;
+	position: absolute;
+	right: 0px;
+}
+
+.refill-modal .tip {
+	width: 106px;
+	height: 23px;
+	
+	position: absolute;
+	top: 105px;
+    right: 40px;
+	
+	background-color: #949cb5;
+	border-radius: 6px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.refill-modal .payments {
+	width: 90%;
+	height: 183px;
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.refill-modal .payments .payments-wrapper {
+	width: 100%;
+	height: 139px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.payment {
+	width: 93px;
+	height: 33px;
+	border: 2px solid #D3D3D6;
+	border-radius: 8px;
+	margin: 0px 5px 10px 5px;
+	cursor: pointer;
+}
+
+.payment:hover {
+	border: 2px solid #34C38D;
+}
+
+.payments-wrapper .active {
+	border: 2px solid #34C38D;
+}
+
+.payment:nth-child(1) {
+	background: url(../images/payment/mastercard.svg) 100% no-repeat;
+}
+.payment:nth-child(1):hover {
+	background: url(../images/payment/mastercardG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(2) {
+	background: url(../images/payment/visa.svg) 100% no-repeat;
+}
+.payment:nth-child(2):hover {
+	background: url(../images/payment/visaG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(3) {
+	background: url(../images/payment/paypal-logo.svg) 100% no-repeat;
+}
+.payment:nth-child(3):hover {
+	background: url(../images/payment/paypal-logoG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(4) {
+	background: url(../images/payment/PAYEER.svg) 100% no-repeat;
+}
+.payment:nth-child(4):hover {
+	background: url(../images/payment/PAYEERG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(5) {
+	background: url(../images/payment/advcash.svg) 100% no-repeat;
+}
+.payment:nth-child(5):hover {
+	background: url(../images/payment/advcashG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(6) {
+	background: url(../images/payment/okpay.svg) 100% no-repeat;
+}
+.payment:nth-child(6):hover {
+	background: url(../images/payment/okpayG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(7) {
+	background: url(../images/payment/PM.svg) 100% no-repeat;
+}
+.payment:nth-child(7):hover {
+	background: url(../images/payment/PMG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(8) {
+	background: url(../images/payment/payza-logo.svg) 100% no-repeat;
+}
+.payment:nth-child(8):hover {
+	background: url(../images/payment/payza-logoG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(9) {
+	background: url(../images/payment/Bitcoin.svg) 100% no-repeat;
+}
+.payment:nth-child(9):hover {
+	background: url(../images/payment/BitcoinG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(10) {
+	background: url(../images/payment/Qiwi.svg) 100% no-repeat;
+}
+.payment:nth-child(10):hover {
+	background: url(../images/payment/QiwiG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(11) {
+	background: url(../images/payment/yandex-pay-logo.svg) 100% no-repeat;
+}
+.payment:nth-child(11):hover {
+	background: url(../images/payment/yandex-pay-logoG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(12) {
+	background: url(../images/payment/wallet-one.svg) 100% no-repeat;
+}
+.payment:nth-child(12):hover {
+	background: url(../images/payment/wallet-oneG.svg) 100% no-repeat;
+}
+
+.payment:nth-child(1), .payment:nth-child(2), .payment:nth-child(3), .payment:nth-child(8), .payment:nth-child(9), .payment:nth-child(10), .payment:nth-child(11), .payment:nth-child(12), .payment:nth-child(1):hover, .payment:nth-child(2):hover, .payment:nth-child(3):hover, .payment:nth-child(8):hover, .payment:nth-child(9):hover, .payment:nth-child(10):hover, .payment:nth-child(11):hover, .payment:nth-child(12):hover, .payment:nth-child(4), .payment:nth-child(4):hover, .payment:nth-child(5), .payment:nth-child(5):hover, .payment:nth-child(6), .payment:nth-child(6):hover, .payment:nth-child(7), .payment:nth-child(7):hover {
+	background-position: center;
+	background-size: contain;
+}
+
+.refill-modal .btn {
+	width: 50%;
+	margin: 0px 0px 40px 0px;
+}
+
+/*WITHDRAW BALANCE*/
+
+.withdraw-modal {
+	width: 752px;
+	height: 532px;
+}
+
+.withdraw-modal h2 {
+	margin: 80px 0px 0px 0px;
+}
+
+.withdraw-modal .your-balance {
+	width: 126px;
+	height: 79px;
+	
+	font-size: 14px;
+	color: #ffffff;
+	
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.withdraw-modal .your-balance > span {
+	color: #8b99c2;
+}
+
+.withdraw-modal .your-balance div:nth-child(2), .withdraw-modal .your-balance div:nth-child(3) {
+	width: 100%;
+	background-color: #8b99c2;
+	padding: 5px 0px;
+	border-radius: 0px 8px 8px 0px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.withdraw-modal .your-balance div:nth-child(3) {
+	background-color: #c5cce0;
+}
+
+.withdraw-modal .your-balance div:nth-child(2) span, .withdraw-modal .your-balance div:nth-child(3) span {
+	margin: 0px 10px 0px 0px;
+}
+
+.payments-text {
+	height: 175px;
+	width: 90%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.payments-wrapper-text {
+	width: 100%;
+	height: 137px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.payment-text {
+	width: 145px;
+	height: 35px;
+	background-color: #ffffff;
+	border: 2px solid #949cb5;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 300;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #949cb5;
+}
+
+.payments-wrapper-text .active, .payment-text:hover {
+	background-color: #34C38D;
+	border: 2px solid #34C38D;
+	color: #ffffff;
+}
+
+.withdraw-modal .choose-payment {
+	width: 90%;
+	height: 38px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	margin: 0px 0px -30px 0px;
+}
+
+.withdraw-modal .choose-payment div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.withdraw-modal .choose-payment div label {
+	margin: 0px 10px 0px 35px;
+}
+
+.withdraw-modal .sum {
+	width: 90%;
+	height: 41px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px 0px 80px 0px;
+}
+
+.withdraw-modal .sum div {
+	width: 67%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.withdraw-modal .sum div input[type=text] {
+	border-bottom: 2px solid #34C38D;
+	font-weight: 300;
+}
+
+.withdraw-modal .sum .btn {
+	width: 194px;
+	height: 41px;
+	padding: 0px;
+}
+
+/*MONEY INTERACTIONS*/
+
+.lots-money-interactions {
+	width: 100%;
+	height: 70px;
+	flex-wrap: wrap;
+}
+
+.money-interaction {
+	width: 24%;
+	height: 70px;
+	background-color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+	
+	border-radius: 8px;
+	box-shadow: 0px 0px 14px rgba(0,0,0,0.1);
+}
+
+.money-interaction img {
+	margin: 0px 0px 0px 20px;
+}
+
+.money-interaction span {
+	margin: 0px 20px 0px 0px;
+}
+
+/*LOTS SECTION*/
+
+.lots-section {
+    width: 100%;
+    height: 519px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    position: relative;
+    margin: 60px auto 0px auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lots-wrapper {
+	width: 67%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.lot-wrapper {
+	width: 100%;
+	height: auto;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.lot {
+	width: 49%;
+	height: 96px;
+	margin: 0px 0px 10px 0px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	position: relative;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.lot svg {
+	position: absolute;
+}
+
+.lot .total-price, .lot .timer, .lot .true-price {
+	width: 32%;
+	height: 100%;
+	background-color: #949cb5;
+	border-right: 2px solid #d2d5dd;
+	border-radius: 8px 0px 0px 8px;
+}
+
+.lot .opened {
+	background-color: #34C38D;
+}
+
+.lot .total-price div:first-child {
+	width: 100%;
+	height: 71px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.lot .total-price div:last-child {
+	width: calc(100% - 20px);
+	font-size: 11px;
+	height: 25px;
+	padding: 0px 10px;
+	background-color: #ffffff;
+	border-radius: 0px 0px 0px 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.lot .timer {
+	width: auto;
+	border-right: none;
+	background-color: #ffffff;
+	border-radius: 0px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lot .true-price {
+	background-color: #ffffff;
+	border-right: none;
+	border-left: 2px solid #d2d5dd;
+	border-radius: 0px 8px 8px 0px;
+}
+
+.lot .true-price div:first-child {
+	width: 100%;
+	height: 71px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.lot .true-price div:first-child div {
+	width: 26px;
+	height: 26px;
+	background: url(../images/lots/closed-price.png) 100% no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.lot .true-price div:first-child p span:first-child {
+	font-size: 10px;
+}
+
+.lot .true-price div:first-child p span:last-child {
+	font-size: 15px;
+	color: #d65252;
+}
+
+.lot .true-price div:last-child {
+	width: 100%;
+	font-size: 14px;
+	height: 25px;
+	text-align: center;
+	background-color: #34C38D;
+	border-radius: 0px 0px 6px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+/*pager*/
+
+.lots-wrapper .pager {
+	width: 70%;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.lots-wrapper .pager svg {
+	cursor: pointer;
+}
+
+.lots-wrapper .pager svg:hover path {
+	fill: #34c28d;
+}
+
+.lots-wrapper .pager svg:hover g {
+	stroke: #34c28d;
+}
+
+.pager .pages {
+	width: 80%;
+	height: 25px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.pages-wrapper, .pages-wrapper {
+	width: 100%;
+	height: auto;
+	
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.pager .pages .pages-wrapper .page {
+	width: 10%;
+	height: 3px;
+	background-color: #e6e6e6;
+}
+
+.pager .pages .pages-wrapper .active {
+	background-color: #34C38D;
+}
+
+.pager .pages .second {
+	display: none;
+}
+
+/*SEARCH AND STATS SECTION*/
+
+.lots-search {
+	width: 255px;
+	height: 90%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.lots-search hr {
+	display: none;
+}
+
+.search-wrapper, .live-stats {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.lots-search h2 {
+	margin: 0px;
+}
+
+.lots-search h2 > span {
+	cursor: pointer;
+}
+
+.search-price span, .search-type > span, .last-transactions > span {
+	margin: 0px 0px 10px 0px;
+	width: 100%;
+}
+
+.search-price input[type=text] {
+	text-align: center;
+}
+
+.search-price input[type=text]:focus {
+	border-bottom: 2px solid #34C38D;
+	color: #34C38D;
+}
+
+.search-type {
+	width: 195px;
+	text-align: center;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.search-type .search-type-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.search-type .search-type-wrapper div {
+	width: 100%;
+	margin: 3px 0px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.search-type .search-type-wrapper .active {
+	color: #ffffff;
+	background-color: #34C38D;
+}
+
+.last-transactions {
+	width: 100%;
+	height: 330px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.transaction-wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.transaction-wrapper .transaction {
+	width: 100%;
+	height: 30px;
+	background-color: #f3f3f6;
+	border-radius: 5px;
+	margin: 2px 0px;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.transaction-wrapper .transaction > span {
+	position: absolute;
+	top: 7px;
+	left: 5px;
+	margin: 0px 0px 0px 0px;
+	z-index: 0;
+}
+
+.transaction-wrapper .transaction div:last-child, .transaction-wrapper .transaction div:nth-child(2) {
+	background-color: #949cb5;
+	border-radius: 0px 5px 5px 0px;
+	width: 80px;
+	height: 100%;
+	z-index: 1;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.transaction-wrapper .transaction div:nth-child(2) {
+	background-color: #34c28d;
+	border-radius: 0px;
+}
+
+/*MEDIA*/
+
+@media screen and (min-width: 1366px) {
+	.lots-money-interactions, .lots-section {
+		width: 1032px;
+		margin: 0px auto;
+	}
+}
+
+/*MEDIA 1024*/
+
+@media screen and (max-width: 1024px)  {
+/*	MONEY INTERACTION BUTTONS*/
+	.money-interaction {
+		height: 60px;
+	}
+}
+
+/*MEDIA TABLET*/
+
+@media screen and (max-width: 768px) {
+/*	withdraw modal*/
+	.withdraw-modal {
+		width: 682px;
+		height: 640px;
+	}
+	.withdraw-modal .your-balance {
+		width: 146px;
+	}
+	.withdraw-modal .sum {
+		height: 100px;
+		flex-direction: column;
+		margin: 0px 0px 40px 0px;
+	}
+	.withdraw-modal .sum div {
+		width: 100%;
+	}
+	.withdraw-modal .sum div input[type=text] {
+		width: 48%;
+	}
+	.withdraw-modal .sum .btn {
+		width: 100%;
+	}
+	.withdraw-modal .choose-payment {
+		font-size: 14px;
+	}
+	.withdraw-modal .choose-payment div label {
+		margin: 0px 10px 0px 30px;
+	}
+/*	CART MODAL*/
+	.cart-modal {
+		width: 628px;
+	}
+	.cart-table th:nth-child(2), .cart-table th:nth-child(5) {
+		display: none;
+	}
+	.cart-table td:nth-child(2), .cart-table td:nth-child(5) {
+		display: none;
+	}
+	.cart-modal .bottom-menu .pager {
+		width: 20%;
+		font-size: 14px;
+	}
+	.cart-modal .bottom-menu .type {
+		width: 70%;
+		font-size: 14px;
+	}
+/*	MONEY INTERACTION BUTTONS*/
+	.money-interaction {
+		height: 50px;
+	}
+	
+	.money-interaction img {
+		margin: 0px 0px 0px 15px; 
+	}
+	
+	.money-interaction span {
+		margin: 0px 15px 0px 0px; 
+	}
+	/*lots section*/
+	.lots-section {
+		height: 1245px;
+		flex-direction: column;
+	}
+	.lots-wrapper {
+		order: 2;
+	}
+	.lots-search {
+		width: 100%;
+		height: 337px;
+	}
+	.lots-search hr {
+		display: block;
+		margin: -10px 0px -10px 0px;
+	}
+	.search-wrapper, .live-stats {
+		width: 100%;
+		height: 247px;
+	}
+	.search-wrapper h2, .live-stats h2 {
+		text-align: left;
+		width: 95%;
+		order: 0;
+	}
+	.search-type {
+		width: 95%;
+	}
+	.search-type .search-type-wrapper {
+		height: 100px;
+		flex-wrap: wrap;
+		order: 1;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.search-type > span {
+		color: #34C38D;
+		width: 95%;
+		text-align: left;
+	}
+	.search-type .search-type-wrapper div {
+		width: 49%;
+   		margin: 3px 0px;
+    	height: 40px;
+	}
+	.search-price {
+		width: 95%;
+		order: 2;
+		flex-direction: row;
+		position: relative;
+		justify-content: space-between;
+	}
+	.search-price > span {
+		position: absolute;
+		top: -15px;
+		left: 0px;
+	}
+	.search-price input[type=text] {
+		width: 49%;
+		text-align: left;
+	}
+	.last-transactions {
+		width: 95%;
+		height: 120px;
+		margin: 0px 0px 70px 0px;
+	}
+	.transaction-wrapper {
+		display: flex;
+    	flex-direction: row;
+    	align-items: center;
+		flex-wrap: wrap;
+    	justify-content: space-between;
+	}
+	.transaction-wrapper .transaction {
+		width: 49%;
+	}
+	.transaction:nth-child(9), .transaction:nth-child(8), .transaction:nth-child(7) {
+		display: none;
+	}
+	.last-transactions > span {
+		color: #34C38D;
+	}
+/*	lots*/
+	.lots-wrapper {
+		width: 95%;
+	}
+	.lot-wrapper {
+		height: 898px;
+	}
+	.lot {
+		width: 49%;
+		height: 435px;
+		flex-direction: column;
+		border-radius: 8px;
+	}
+	.lot:nth-child(8), .lot:nth-child(7), .lot:nth-child(6), .lot:nth-child(5) {
+		display: none;
+	}
+	.lot .total-price, .lot .timer, .lot .true-price {
+		width: 100%;
+		border-right: none;
+		border-left: none;
+		border-radius: 8px 8px 0px 0px;
+	}
+	.lot .total-price {
+		height: 140px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.lot .total-price div:first-child {
+		height: 115px;	
+	}
+	.lot .total-price div:last-child {
+		border-radius: 0px;
+	}
+	.lot .timer {
+		height: auto;
+	}
+	.lot .true-price {
+		height: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		border-radius: 0px 0px 8px 8px;
+	}
+	.lot .true-price div:first-child {
+		height: 50px;
+	}
+	.lot .true-price div:last-child {
+		height: 45px;
+		border-radius: 0px 0px 8px 8px;
+	}
+/*	pager*/
+	.lots-wrapper .pager {
+		margin-bottom: 24px;
+	}
+	.pager .pages .second {
+		display: flex;
+	}
+}
+
+/*MEDIA 610*/
+
+@media screen and (max-width: 610px) {
+/*	MONEY INTERACTIONS CONTAINER*/
+	.lots-money-interactions {
+		height: 110px;
+		
+	}
+/*	MONEY INTERACTION BUTTONS*/
+	.money-interaction {
+		width: 49%;
+		height: 45px;
+	}
+	
+	.money-interaction img {
+		margin: 0px 0px 0px 10px; 
+	}
+	
+	.money-interaction span {
+		margin: 0px 10px 0px 0px; 
+	}
+}
+
+/*MEDIA MOBILE*/
+
+@media screen and (max-width: 480px) {
+	/*	withdraw modal*/
+	.withdraw-modal {
+		width: 335px;
+		height: 674px;
+	}
+	.withdraw-modal .your-balance {
+		width: 106px;
+		top: 15px;
+	}
+	.withdraw-modal h2 {
+		margin: 80px 0px 0px 0px;
+		font-size: 15px;
+	}
+	.withdraw-modal .your-balance {
+		height: 50px;
+	}
+	.withdraw-modal .your-balance div:nth-child(2) {
+		border-radius: 0px;
+	}
+	.withdraw-modal .your-balance div:nth-child(3) {
+		position: absolute;
+		top: 23px;
+		left: 106px;
+	}
+	.withdraw-modal .payments-text {
+		height: 301px;
+	}
+	.withdraw-modal .payments-text span {
+		font-size: 12px;
+	}
+	.payments-wrapper-text {
+		height: 369px;
+	}
+	.payment-text {
+		width: 104px;
+		font-size: 11px;
+		height: 35px;
+	}
+	.withdraw-modal .sum {
+		height: 130px;
+		flex-direction: column;
+		margin: 0px 0px 20px 0px;
+	}
+	.withdraw-modal .sum div {
+		width: 100%;
+		height: 85px;
+		flex-direction: column;
+	}
+	.withdraw-modal .sum div input[type=text] {
+		width: 100%;
+	}
+	.withdraw-modal .sum .btn {
+		width: 100%;
+	}
+	.withdraw-modal .choose-payment {
+		font-size: 12px;
+		height: 100px;
+		flex-direction: column;
+		margin: 0px 0px -20px 0px;
+	}
+	.withdraw-modal .choose-payment div {
+		height: 80px;
+		width: 100%;
+		flex-direction: column;
+		position: relative;
+	}
+	.withdraw-modal .choose-payment div select {
+		width: 100%;
+	}
+	.withdraw-modal .choose-payment div > span {
+		position: absolute;
+		top: 50px;
+		right: 50px;
+	}
+	.withdraw-modal .choose-payment div label {
+		margin: 0px 110px 5px 0px;
+	}
+/*	refill modal*/
+	.refill-modal {
+		width: 335px;
+		height: 418px;
+	}
+	.refill-modal h2 {
+		font-size: 15px;
+	}
+	.refill-modal .input {
+		width: 90%;
+		margin: 0px;
+		font-size: 12px;
+	}
+	.refill-modal .input input[type=text] {
+		width: 65%;
+		font-size: 12px;
+	}
+	.refill-modal .input:nth-child(3) input[type=text] {
+		width: 50px;
+		margin: 0px 142px 0px 0px;
+	}
+	.refill-modal .input:nth-child(3) span:last-child {
+		margin: 0px 142px 0px 0px;
+	}
+	.refill-modal .tip {
+		width: 76px;
+		top: 80px;
+		right: 15px;
+		font-size: 10px;
+	}
+	.refill-modal .payments {
+		width: 90%;
+		height: 166px;
+		font-size: 12px;
+	}
+	.refill-modal .payments .payments-wrapper {
+		height: 133px;
+	}
+	.payment {
+		width: 78px;
+		height: 28px;
+		margin: 0px 0px 5px 0px;
+	}
+	.refill-modal .btn {
+		width: 90%;
+		padding: 13px 0px;
+		margin: 0px 0px 20px 0px;
+	}
+/*	cart modal*/
+	.cart-modal {
+		width: 335px;
+		height: 500px;
+	} 
+	.cart-table tr th, .cart-table tr td {
+		font-size: 12px;
+	}
+	.cart-modal .bottom-menu {
+		height: 80px;
+		flex-direction: column;
+	}
+	.cart-modal .bottom-menu .pager {
+		width: 50%;
+		font-size: 12px;
+	}
+	.cart-modal .bottom-menu .type {
+		width: 100%;
+		font-size: 12px;
+	}
+/*	send to a friend*/
+	.send-friend-modal {
+		width: 335px;
+		height: 387px;
+		position: relative;
+	}
+	.send-friend-modal h2 {
+		font-size: 15px;
+		margin: 20px 0px 0px 0px;
+	}
+	.send-friend-modal p {
+		font-size: 12px;
+	}
+	.send-friend-modal input[type=text] {
+		font-size: 14px;
+	}
+/*	ordering modal*/
+	.ordering-modal {
+		width: 335px;
+		height: 337px;
+	}
+	.ordering-modal h2 {
+		font-size: 15px;
+		margin: 20px 0px 0px 0px;
+	}
+	.ordering-modal .text span, .ordering-modal span, .ordering-modal .text div {
+		font-size: 11px;
+		margin: 2px 0px;
+	}
+	.ordering-modal .text div .tip {
+		font-size: 8px;
+		padding: 3px;
+		margin: 0px 0px 0px 5px;
+	}
+	.ordering-modal .choose-payment {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.ordering-modal select {
+		width: 100%;
+		margin: 10px 0px 0px 0px;
+	}
+	.ordering-modal input[type=text] {
+		font-size: 12px;
+	}
+	.ordering-modal .btn {
+		width: 90%;
+		margin: 0px 0px 20px 0px;
+	}
+/*	MONEY INTERACTION BUTTONS*/
+	.money-interaction {
+		font-size: 13px;
+	}
+	.lots-section {
+		height: 2198px;
+		flex-direction: column;
+	}
+	.lots-wrapper {
+		width: 90%;
+		height: 1700px;
+	}
+	.lot-wrapper {
+		height: 1620px;
+	}
+	.lot {
+		width: 100%;
+		height: 391px;
+	}
+	.search-wrapper, .live-stats {
+		height: 380px;
+/*		margin: 20px 0px 0px 0px;*/
+	}
+	.search-wrapper h2, .live-stats h2 {
+		width: 90%;
+		font-size: 16px;
+	}
+	hr {
+		width: 90%;
+	}
+	.search-type {
+		width: 90%;
+		font-size: 12px;
+	}
+	.search-type > span {
+		font-size: 12px;
+	}
+	.search-type .search-type-wrapper {
+		height: 163px;
+		flex-wrap: wrap;
+		order: 1;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.search-type .search-type-wrapper div {
+		width: 100%;
+		height: 35px;
+	}
+	.search-price {
+		width: 90%;
+		flex-direction: column;
+	}
+	.search-price > span, .last-transactions > span {
+		font-size: 12px;
+	}
+	.search-price input[type=text] {
+		width: 100%;
+		font-size: 12px;
+	}
+	.transaction-wrapper {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.transaction-wrapper .transaction {
+		width: 100%;
+	}
+	.last-transactions {
+		width: 90%;
+		font-size: 12px;
+		height: 240px;
+		margin: 0px 0px 40px 0px;
+	}
+	.lots-wrapper .pager {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}

@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-content-wrapper {
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+	
+	padding: 0px 0px 50px 0px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.game-header {
+	width: 100%;
+	height: 249px;
+	background: url(../images/game/top-bg.png) 100% no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 8px 8px 0px 0px;
+	position: relative;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.game-header .logo, .game-header .circle, .game-header .cross, .game-header .triangle, .game-header .square {
+	position: absolute;
+}
+
+.game-header .logo {
+	top: 10px;
+	left: 10px;
+}
+
+.game-header .circle {
+	bottom: 10px;
+	right: 10px;
+}
+
+.game-header .cross {
+	bottom: 10px;
+	right: 50px;
+}
+
+.game-header .triangle {
+	bottom: 50px;
+	right: 10px;
+}
+
+.game-header .square {
+	bottom: 10px;
+	right: 95px;
+}
+
+.game-header span {
+	font-size: 16px;
+	margin: 5px 0px 0px 0px;
+	color: rgba(255,255,255,0.50);
+}
+
+/*MAIN CONTENT*/
+
+.main-info {
+	width: 100%;
+	background: url(../images/game/main-bg.png) 100% no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+/*GAME START INFO*/
+
+.game-about {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.game-about p {
+	font-size: 14px;
+} 
+
+.main-content-wrapper a {
+	color: #34C38D;
+}
+
+/*WARNING INFO*/
+
+.warning-info {
+	width: 90%;
+}
+
+.warning-info div:first-child, .warning-info div:last-child {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	
+	background-color: #5ccea3;
+	border-radius: 8px 8px 0px 0px;
+}
+
+.warning-info div:last-child {
+	border-top: 1px solid #ffffff;
+	background-color: #34c28d;
+	border-radius: 0px 0px 8px 8px;
+}
+
+.warning-info div p {
+	padding: 0px 20px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+/*RULES DETAILS*/
+
+.rules-details {
+	text-align: center;
+	font-size: 14px;
+	padding: 0px 20px;
+	margin: -10px 0px 40px 0px;
+}
+
+/*GAME STATS*/
+
+.game-stats {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.game-stats .block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.game-stats .block:nth-child(1), .game-stats .block:nth-child(2) {
+	width: 47%;
+	margin-bottom: 10px;
+}
+
+.game-stats .block:nth-child(3) div {
+	background-color: #34C38D;
+}
+
+.game-stats .block:nth-child(3), .game-stats .block:nth-child(4), .game-stats .block:nth-child(5) {
+	width: 29%;
+}
+
+.game-stats .block > span {
+	font-size: 14px;
+}
+
+.game-stats .block:nth-child(1) div, .game-stats .block:nth-child(2) div {
+	padding: 20px 15px;
+}
+
+.game-stats .block div {
+	width: 100%;
+	background-color: #4f5a7b;
+	border-radius: 8px;
+	font-size: 20px;
+	padding: 15px;
+	margin: 5px;
+}
+
+/*DIAGRAM*/
+
+.rating {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: flex-start;
+}
+
+.diagram {
+	width: 100%;
+	height: 425px;
+	position: relative;
+}
+
+.diagram .back {
+	width: 100%;
+	height: 85px;
+	position: relative;
+}
+
+.diagram .back > span {
+	font-size: 15px;
+	font-weight: 300;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+}
+
+.diagram .back:nth-child(1) {
+	border-radius: 8px 8px 0px 0px;
+}
+
+.diagram .back:nth-child(5) {
+	border-radius: 0px 0px 8px 8px;
+}
+
+.diagram .back:nth-child(odd) {
+	background-color: #34C38D;
+}
+
+.diagram .back:nth-child(even) {
+	background-color: #5ccea3;
+}
+
+.diag-header {
+	font-size: 15px;
+	font-weight: 300;
+	color: #ffffff;
+	position: absolute;
+	bottom: 25px;
+	left: calc(50% - 60px);
+}
+
+.diagram .bars {
+	position: absolute;
+	top: 20px;
+	bottom: 85px;
+	left: 100px;
+	right: 100px;
+	
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.diagram .bars .bar {
+	width: 35px;
+	position: relative;
+	background-color: #ffffff;
+	border-radius: 8px 8px 0px 0px;
+}
+
+.diagram .bars .bar span {
+	font-size: 11px;
+	font-weight: 300;
+	color: #ffffff;
+	position: absolute;
+	bottom: -18px;
+	left: calc(50% - 10px);
+}
+
+.diagram .bars .bar span:before {
+	content: "№";
+}
+
+.diagram svg {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+	z-index: 30;
+}
+
+.diagram .svg-active line {
+	stroke: #34C38D;
+}
+
+.diagram .popup-menu {
+	width: 285px;
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	right: 1px;
+	background-color: #f5fcf9;
+	border-radius: 0px 8px 8px 0px;
+	
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.diagram .popup-menu span {
+	font-size: 14px;
+	margin: 5px;
+	color: #000000;
+	cursor: pointer;
+}
+
+.diagram .popup-menu span:hover {
+	color: #34C38D;
+}
+
+.diag-header2 {
+	display: none;
+	font-size: 15px;
+   	font-weight: 300;
+    color: #ffffff;
+    position: absolute;
+    bottom: 25px;
+    left: calc(50% - 60px);
+}
+
+/*TEAMS*/
+
+.teams {
+	width: 90%;
+    text-align: center;
+    font-size: 14px;
+    border-spacing: 0px 5px;
+    font-weight: 300;
+}
+
+.teams tr {
+    background-color: #4f5a7b;
+	height: 50px;
+	color: #ffffff;
+}
+
+.teams tr:first-child {
+	height: 30px;
+	background-color: transparent;
+}
+
+.teams tr th {
+	color: #000000;
+	font-weight: 400;
+}
+
+.teams tr td:first-child {
+	border-radius: 8px 0px 0px 8px;
+}
+
+.teams tr td:last-child {
+	border-radius: 0px 8px 8px 0px;
+}
+
+/*FAQ*/
+
+.faq {
+	width: 100%;
+	border-top: 20px solid #34C38D;
+	background-color: #eaf9f3;
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.faq h2 {
+	color: #4f5a7b;
+}
+
+.accordion {
+	width: 90%;
+	background-color: #ffffff;
+	color: #34C38D;
+	padding: 15px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0px 3px 5px rgba(107, 107, 107, 0.3);
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.3s, margin 0s, border-radius 0s;
+	margin: 10px 0px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	position: relative;
+}
+
+.accordion svg {
+	position: absolute;
+	top: calc(50% - 9px);
+	right: 13px;
+}
+
+.accordion svg circle {
+	transition: 0.3s;
+}
+
+.active, .accordion:hover {
+  	background-color: #34C38D;
+	color: #ffffff;
+}
+
+.accordion:hover svg circle, .active svg circle {
+	fill: #ffffff;
+}
+
+.active {
+	box-shadow: none;
+}
+
+.panel {
+  	width: calc(90% - 36px);
+	padding: 0px 18px;
+  	background-color: transparent;
+  	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.3s ease-out;
+	color: #000000;
+	font-size: 12px;
+}
+
+.panel a {
+	color: #34C38D;
+}
+
+.panel a:hover {
+	text-decoration: underline;
+}
+
+/*PRIZES MORE*/
+
+.prizes-more {
+	width: 90%;
+	text-align: center;
+	height: 100px;
+}
+
+/*MEDIA*/
+
+@media screen and (min-width: 1366px) {
+	.main-content-wrapper {
+		width: 1027px;
+		margin: 0px auto;
+	}
+}
+
+/*MEDIA 1024*/
+
+@media screen and (max-width: 1024px)  {
+	
+}
+
+/*MEDIA TABLET*/
+
+@media screen and (max-width: 768px) {
+	.game-stats .block:nth-child(1), .game-stats .block:nth-child(2), .game-stats .block:nth-child(3), .game-stats .block:nth-child(4), .game-stats .block:nth-child(5) {
+    	width: 100%;
+		padding: 0px 0px;
+		margin: 0px;
+	}
+	
+	.game-stats .block div, .game-stats .block:nth-child(1) div, .game-stats .block:nth-child(2) div {
+		padding: 10px 0px;
+	}
+	.diagram .bars {
+		left: 75px;
+		right: 55px;
+	}
+	.diagram .bars .bar {
+		width: 25px;
+	}
+	
+	.diagram .bars .bar span {
+		font-size: 10px;
+		left: 0px;
+	}
+}
+
+/*MEDIA MOBILE*/
+
+@media screen and (max-width: 480px) {
+	.game-header {
+		height: 220px;
+	}
+	.game-header .header {
+		width: 80%;
+	}
+	.game-about h2, .rating h2 {
+		font-size: 14px;
+	}
+	.game-about .btn {
+		width: 100%;
+	}
+	.game-about p {
+		font-size: 12px;
+	} 
+	.rules-details {
+		display: none;
+	}
+	.game-stats .block > span {
+		font-size: 11px;
+	}
+	.game-stats .block > div span {
+		font-size: 14px;
+	}
+	.diagram .bars .bar {
+		width: 15px;
+	}
+	.diagram .bars .bar span {
+		left: 4px;
+	}
+	.diagram .bars .bar span:before {
+		content: "";
+	}
+	.diagram .back > span {
+		font-size: 13px;
+	}
+	.diagram .bars {
+		left: 60px;
+		right: 15px;
+	}
+	.diag-header {
+		top: 25px;
+	}
+	.diag-header2 {
+		display: inline;
+	}
+	.diagram .popup-menu {
+    	width: auto;
+		left: 1px;
+		border-radius: 8px;
+	}
+	.teams {
+		width: 100%;
+		font-size: 11px;
+	}
+	.teams tr td:last-child, .teams tr td:first-child {
+		border-radius: 0px;
+	}
+	.faq h2 {
+		font-size: 15px;
+	}
+	.accordion {
+		width: 100%;
+		border-radius: 0px;
+		box-shadow: none;
+		font-size: 11px;
+		padding: 15px 30px 15px 15px;
+	}
+	.panel {
+		width: calc(100% - 36px);
+		font-size: 11px;
+	}
+	.accordion svg {
+		width: 12px;
+	}
+	.prizes-more {
+		height: 90px;
+	}
+	.prizes-more span {
+		font-size: 11px;
+	}
+}

@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-content-wrapper {
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+	
+	padding: 0px 0px 50px 0px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+/*HEADER*/
+
+.idea-header {
+	width: 100%;
+	height: 214px;
+	background-color: #ffffff;
+	border-radius: 8px 8px 0px 0px;
+	
+	background: url(../images/top-bg-idea.png) 100% no-repeat;
+	background-position: top;
+	background-size: 100%;
+	
+	display: flex;
+	align-items: center;
+}
+
+.idea-header h2 {
+	margin: 0px;
+}
+
+.idea-header div {
+	background-color: rgba(52, 194, 141, 0.9);
+	width: calc(70% - 40px);
+	padding: 10px 20px;
+	height: calc(81px - 20px);
+	border-radius: 0px 8px 8px 0px;
+	
+	position: relative;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+.idea-header div span:first-child {
+	text-transform: uppercase;
+	position: absolute;
+	top: -23px;
+	right: 10px;
+}
+
+/*VIDEO*/
+
+.video-section {
+	width: 90%;
+	height: 491px;
+	margin: 20px 0px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*WELCOME*/
+
+.welcome-section {
+	width: 80%;
+	margin: 20px 0px;
+	text-align: center;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.welcome-section h3 {
+	margin: 0px;
+	color: #bcbdc1;
+	letter-spacing: 5px;
+}
+
+/*WEBINAR SECTION*/
+
+.webinar-section {
+	width: 90%;
+	height: 446px;
+	margin: 20px 0px;
+}
+
+/*IDEA*/
+
+.idea-section {
+	width: 90%;
+	margin: 20px 0px;
+}
+
+.idea-menu {
+	width: 100%;
+	height: 226px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.idea-section hr {
+	background-color: #34C38D;
+}
+
+.idea-menu .menu-point {
+	width: 24%;
+	height: 60px;
+	cursor: pointer;
+	color: #838383;
+	
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition-duration: 0.2s;
+}
+
+.idea-menu .menu-point:hover, .idea-menu .active {
+	color: #ffffff;
+	background-color: #34C38D;
+	box-shadow: 0px 5px 14px rgba(0,0,0,0.3);
+}
+
+.idea-content {
+	width: 100%;
+	margin: 20px 0px;
+	text-align: center;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.idea-content h3 {
+	margin: 15px 0px;
+	font-weight: 400;
+	color: #34C38D;
+	text-transform: uppercase;
+}
+
+.idea-content h4 {
+	margin: 15px 0px;
+	font-weight: 400;
+	color: #000000;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.idea-content h5 {
+	margin: 15px 0px;
+	font-weight: 400;
+	color: #909298;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.idea-content img {
+	margin: 15px 0px;
+	width: 90%;
+}
+
+.idea-content p {
+	margin: 15px 0px;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.idea-content p span, .idea-content li span {
+	font-weight: 400;
+}
+
+.idea-content ul {
+	padding: 0px;
+}
+
+.idea-content li {
+	display: block;
+	margin: 10px 0px;
+	font-weight: 300;
+}
+
+.idea-content a:hover {
+	text-decoration: underline;
+}
+
+.idea-section .btn {
+	margin: 15px 0px 0px 0px;
+    width: 100%;
+}
+
+/*MEDIA*/
+
+@media screen and (min-width: 1366px) {
+	.main-content-wrapper {
+		width: 1032px;
+		margin: 0px auto;
+	}
+}
+
+/*MEDIA 1024*/
+
+@media screen and (max-width: 1024px)  {
+	
+}
+
+/*MEDIA TABLET*/
+
+@media screen and (max-width: 768px) {
+	.idea-header h2 {
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	.video-section, .webinar-section {
+		height: 346px;
+	}
+	.video-section iframe {
+		height: 93%;
+	}
+	.idea-menu {
+		height: 506px;
+	}
+	.idea-menu .menu-point {
+		width: 49%;
+	}
+}
+
+/*MEDIA MOBILE*/
+
+@media screen and (max-width: 480px) {
+	.idea-header {
+		height: 113px;
+	}
+	.idea-header div {
+		height: 45px;
+	}
+	.idea-header div span:first-child {
+		font-size: 10px;
+		top: -16px;
+	}
+	.idea-header h2 {
+		font-size: 16px;
+		letter-spacing: 2px;
+	}
+	.idea-header div {
+		width: 80%;
+	}
+	.video-section {
+		width: 100%;
+		height: 206px;
+		text-align: center;
+	}
+	.video-section span {
+		font-size: 10px;
+		margin: 0px 0px 10px 0px;
+	}
+	.welcome-section {
+		width: 90%;
+		font-size: 12px;
+	}
+	.welcome-section h3 {
+		font-size: 12px;
+	}
+	.webinar-section {
+		width: 100%;
+		height: 170px;
+	}
+	.idea-menu {
+		height: 649px;
+	}
+	.idea-menu .menu-point {
+		width: 100%;
+		height: 43px;
+		font-size: 11px;
+	}
+	.idea-content, .idea-content p {
+		font-size: 12px;
+	}
+	.idea-content h3, .idea-content h4, .idea-content h5 {
+		font-size: 14px;
+	}
+	.idea-content img {
+		width: 100%;
+	}
+}

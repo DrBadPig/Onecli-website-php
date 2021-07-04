@@ -1,0 +1,635 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*HEADER CHANGES*/
+.main-user-info span {
+	color: #34C38D;
+}
+
+.main-user-info img {
+	border: 2px solid #34C38D;
+}
+
+/*SETTING INFO*/
+.settings-info {
+	width: 100%;
+	height: 403px;
+	background-color: #ffffff;
+	padding: 20px 0px;
+	
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.settings-info svg {
+	position: absolute;
+	top: 0px;
+}
+
+.settings-info-wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: #eaf9f3;
+	text-align: center;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.settings-info-wrapper h2 {
+	width: 100%;
+	margin: 0px;
+	padding: 10px 0px;
+	background-color: #34C38D;
+}
+
+.settings-info-wrapper p {
+	margin: 0px;
+	padding: 0px 20px;
+}
+
+.pws-info {
+	height: 30px;
+	padding: 0px 20px;
+	font-size: 14px;
+	
+	border-radius: 8px 8px 0px 0px;
+	background-color: #4f5a7b;
+}
+
+.user-info-section {
+	width: 100%;
+	height: auto;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.profile-info {
+	width: 48%;
+	height: 1202px;
+	background-color: #ffffff;
+	
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.account-info {
+	width: 48%;
+	height: 1202px;
+	background-color: #ffffff;
+	
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.profile-info-wrapper {
+    width: 100%;
+    height: 715px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+
+
+
+
+.profile-info-wrapper .btn, .account-info .btn {
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+.photo-section {
+	width: 100%;
+	height: 487px;
+	border-radius: 8px 8px 0px 0px;
+	box-shadow: 0px -90px 84px -71px #696969 inset;
+	
+	background: url(../images/kodzima.jpg) 100% no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.photo-section svg {
+	cursor: pointer;
+}
+
+.photo-section .user-login {
+	font-size: 16px;
+	color: #ffffff;
+	margin-bottom: 5px;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.photo-section .user-login svg {
+	margin-left: 7px;
+}
+
+.photo-section .user-login svg:hover circle {
+	fill: #ffffff;
+}
+
+.photo-section .user-login svg:hover #change_decor {
+	fill: #34c28d;
+}
+
+.user-about-section {
+	width: 100%;
+	height: 180px;
+	margin: 50px 0px 0px 0px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.user-about-section div {
+	width: 100%;
+}
+
+.user-about-section input[type=text] {
+	 margin: 0px 10px 0px 10px; 
+	 border: 0px; 
+	 color: #fff; 
+	 font-size: 14px; 
+	 width: calc(100% - 20px); 
+	 background-color: #34C38D; 
+}
+
+.user-about-section div span {
+	margin: 0px 0px 0px 15px;
+}
+
+.user-about-section div div span {
+	margin: 0px 0px 0px 10px;
+}
+
+.user-about-section .text-area {
+	width: 66%;
+	height: 90px;
+	border-radius: 8px 0px 0px 8px;
+	text-align: left;
+	padding: 2%;
+	color: #ffffff;
+	background-color: #34C38D;
+	box-shadow: none;
+}
+
+.user-about-section .text-area::-webkit-scrollbar-track {
+	background-color: #5dcea4;
+}
+
+.user-about-section .text-area::-webkit-scrollbar-thumb {
+    background: #299F72;
+}
+
+.user-about-section div > div {
+	width: 70%;
+	height: 40px;
+	background-color: #34c28d;
+	border-radius: 8px 0px 0px 8px;
+	
+	font-size: 14px;
+	color: #ffffff;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.user-about-section > div:last-child div {
+	height: 120px;
+}
+
+.user-about-section div > div div {
+	width: 38px;
+	height: 38px;
+	background-color: #5dcea4;
+	
+	border-radius: 0px;
+	border: 1px solid #5dcea4;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user-about-section div > div div:hover {
+	fill: #34c28d;
+	background-color: #ffffff;
+}
+
+.user-about-section div > div div:hover path {
+	fill: #34c28d;
+}
+
+.user-socials {
+	width: 100%;
+	height: 307px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.user-socials-header {
+	width: 100%;
+	height: 68px;
+	background-color: #eaf9f3;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.user-socials-list {
+	width: 100%;
+}
+
+.user-socials-list div {
+	margin: 0px 0px 10px 0px;
+}
+
+.user-socials-list div span {
+	margin: 0px 0px 0px 15px;
+}
+
+.user-socials-list div input[type=text] {
+	width: 66%;
+	height: 20px;
+	border-bottom: 0px;
+	background-color: #e5e6eb;
+	border-radius: 8px 0px 0px 8px;
+	box-shadow: none;
+	padding: 10px;
+	text-align: left;
+	font-size: 14px;
+	color: #000000;
+}
+
+.account-info h2 {
+	width: 100%;
+	background-color: #34C38D;
+	margin: 0px;
+	padding: 40px 0px 10px;
+	text-align: center;
+	border-radius: 8px 8px 0px 0px;
+}
+
+.main-account-info {
+	width: 100%;
+	height: 221px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main-account-info div {
+	width: 90%;
+	position: relative;
+}
+
+.main-account-info div span {
+	font-size: 14px;
+}
+
+.main-account-info div p {
+	position: static;
+	width: 100%;
+	background-color: #34C38D;
+	padding: 8px;
+	margin: 10px 0px 0px 0px;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.password-change {
+	width: 100%;
+	height: 291px;
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.password-change .btn {
+    height: 40px;
+    margin: 15px 0px 0px 0px;
+    padding: 0px 10px;
+}
+
+.password-change h3 {
+	margin: 0px 0px 15px 0px;
+}
+
+.password-change div {
+	width: 90%;
+}
+
+.password-change div .send-sms {
+	cursor: pointer;
+}
+
+input[type=password] {
+	width: 85%;
+    height: 20px;
+    border-bottom: 0px;
+    background-color: #e5e6eb;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #000000;
+	border: none;
+	outline: 0px;
+}
+
+.pass input[type=text] {
+	width: 85%;
+    height: 20px;
+    border-bottom: 0px;
+    background-color: #e5e6eb;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #000000;
+	border: none;
+	outline: 0px;
+}
+
+.password-change .sms-code {
+	width: 90%;
+	height: 40px;
+	border-radius: 8px 8px 8px 8px;
+	background-color: #e5e6eb;
+}
+
+.password-change .sms-code > span {
+	margin: 10px;
+}
+
+.password-input-div div {
+	width: 15%;
+	height: 40px;
+	border-radius: 0px 8px 8px 0px;
+	background-color: #e5e6eb;
+}
+
+.password-input-div div svg {
+	cursor: pointer;
+}
+
+.payments {
+	width: 100%;
+	height: 340px;
+	
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payments .payments-list {
+	width: 100%;
+	height: 215px;
+	overflow-y: auto;
+}
+
+.payments .payments-list::-webkit-scrollbar-track {
+	background-color: #eaf9f3;
+	border-radius: 8px;
+}
+
+.payments .payments-list::-webkit-scrollbar-thumb {
+    background: #34C38D;
+	border-radius: 8px;
+}
+
+
+.payments .payments-list div {
+	width: 90%;
+	margin: 0px auto 20px;
+}
+
+.payments-list input[type=text] {
+	width: 55%;
+	padding-left: 10px; 
+	border-bottom: 0px;
+	background-color: #4f5a7b;
+	border-radius: 8px;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.payments-list input[type=text]::placeholder {
+	color: #ffffff;
+}
+
+.payments .warning {
+	width: 100%;
+	height: 79px;
+	background-color: #d83030;
+	text-align: center;
+	font-size: 13px;
+}
+
+.payments .warning p {
+	padding: 30px;
+}
+
+.user-login input[type=text] {
+	width: 70%;
+	font-size: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	color: #ffffff;
+	text-shadow: black 0 0 2px;
+	min-width: 30px;
+	
+	margin: 0px;
+	background-color: transparent;
+	border-bottom: none;
+	text-align: center;
+}
+
+/*MEDIA*/
+
+/*1366 px*/
+
+@media screen and (min-width: 1366px) {
+	.settings-info, .user-info-section {
+		width: 1027px;
+		margin: 0px auto;
+	}
+}
+
+/*TABLET*/
+
+@media screen and (max-width: 768px) {
+	/*	profile info*/
+	.profile-info {
+		width: 100%;
+	}
+	.account-info {
+		width: 100%;
+	}
+}
+
+/*MOBILE*/
+
+@media screen and (max-width: 480px) {
+	/*SETTING INFO*/
+	.settings-info {
+		height: 457px;
+	}
+	.settings-info-wrapper h2 {
+		font-size: 17px;
+	}
+	.settings-info-wrapper > span {
+		font-size: 12px;
+	}
+	.settings-info-wrapper p {
+		font-size: 11px;
+		padding: 0px 12px;
+	}
+	.pws-info {
+		width: 100%;
+		height: 50px;
+		padding: 0px 0px;
+		font-size: 12px;
+		border-radius: 0px;
+	}
+	.pws-info > span {
+		margin: 0px 20px;
+	}
+	
+/*	porfile info*/
+	.photo-section {
+		height: 393px;
+	}
+	.profile-info-wrapper {
+		height: 809px;
+	}
+	.user-about-section {
+		height: 216px;
+		margin: 30px 0px 0px 0px;
+	}
+	.user-about-section div {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.user-about-section > div > span {
+		font-size: 10px;
+		margin-bottom: 15px;
+	}
+	.user-about-section > div > div {
+		font-size: 11px;
+	}
+	.user-about-section > div > div input[type=text] {
+		font-size: 11px;
+		font-weight: 300;
+	}
+	.user-about-section div:first-child > div {
+		width: 100%;
+		flex-direction: row;
+		border-radius: 0px;
+	}
+	.user-about-section .text-area {
+		width: 96%;
+		height: 70px;
+		border-radius: 0px;
+		font-size: 11px;
+	}
+	.user-socials {
+		height: 385px;
+	}
+	.user-socials-header span {
+		font-size: 11px;
+	}
+	.user-socials-list div {
+		flex-direction: column;
+		font-size: 11px;
+		align-items: flex-start;
+	}
+	.user-socials-list div span {
+		margin: 0px 0px 10px 10px;
+	}
+	.user-socials-list div input[type=text] {
+		border-radius: 0px;
+		width: 96%;
+		padding: 10px 2%;
+	}
+/*	account info*/
+	.account-info {
+		height: 993px;
+	}
+	.account-info h2 {
+		font-size: 12px;
+	}
+	.main-account-info div span {
+		font-size: 11px;
+	}
+	.password-change div span, .password-change div input{
+		font-size: 11px;
+	}
+	.payments {
+		height: 286px;
+		font-size: 11px;
+	}
+	.payments h3 {
+		font-size: 13px;
+	}
+	.payments-list input[type=text] {
+		font-size: 11px;
+	}
+	.payments .warning {
+		height: 66px;
+		font-size: 10px;
+	}
+}
+
+
+.photo-disclaimer {
+    position: absolute; 
+    top: 0px; 
+    width: 100%;
+    height: 30px;
+}
+
+.photo-disclaimer p {
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+    color: #656770;
+}
