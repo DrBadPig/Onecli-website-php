@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Cache-Control" content="no-cache">
 	  
-	<link href="css/main.css?7" rel="stylesheet">
+	<link href="css/main.css?8" rel="stylesheet">
 	<link href="css/header.css?1" rel="stylesheet">
 	<link href="images/logo.png" rel="icon">
 	<link href="https://fonts.gstatic.com" rel="preconnect">
@@ -39,7 +39,7 @@
 	    echo '<link href="css/history.css" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Лоты</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "team"){
-	    echo '<link href="css/team.css?4" rel="stylesheet">';
+	    echo '<link href="css/team.css?5" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Моя команда</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "authorization"){
 	    echo '<link href="css/login.css?4" rel="stylesheet">';

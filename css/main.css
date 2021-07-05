@@ -194,6 +194,7 @@ option:last-child {
 	position: absolute;
 	top: 0px;
 	right: 0px;
+	z-index: 200;
 }
 
 .modal-close-button svg {

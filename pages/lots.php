@@ -99,7 +99,7 @@
 				<p class="t-gray t-size-14 t-bold-300"></p>
 				<input type="text" placeholder="Логин или E-mail" id="send_login">
 				<input type="text" placeholder="Количество" id="send_onx">
-				<button class="btn" onclick='sendMoney();'>Отправить</button>
+				<button class="btn" onclick='sendMoney();' style="margin-bottom: 30px;">Отправить</button>
 			</div>
 		</div>
 		
