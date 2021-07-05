@@ -1470,4 +1470,36 @@
 		width: 100%;
 		margin-bottom: 10px;
 	}
+/*	CURRENT BALANCE*/
+	.current-balance {
+		height: calc(40px - 10px);
+		width: calc(100% - 10px);
+		padding: 5px 5px;
+		
+		top: -40px;
+
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+
+		font-size: 11px;
+	}
+	.current-balance > span:nth-child(3) {
+		position: absolute;
+		right: 10px;
+		top: 6px;
+		font-weight: 300;
+	}
+	.current-balance > span:nth-child(2) {
+		position: absolute;
+		right: 10px;
+		bottom: 6px;
+		font-weight: 300;
+	}
+	.current-balance > span:nth-child(1) {
+		position: absolute;
+		left: 10px;
+		bottom: 6px;
+		font-size: 14px;
+	}
 }
