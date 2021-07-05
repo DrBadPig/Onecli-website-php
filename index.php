@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Cache-Control" content="no-cache">
 	  
-	<link href="css/main.css?6" rel="stylesheet">
+	<link href="css/main.css?7" rel="stylesheet">
 	<link href="css/header.css?1" rel="stylesheet">
 	<link href="images/logo.png" rel="icon">
 	<link href="https://fonts.gstatic.com" rel="preconnect">
