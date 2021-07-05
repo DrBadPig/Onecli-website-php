@@ -26,7 +26,7 @@
 	    echo '<link href="css/idea.css?2" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Идея ONECLI.</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "bounty"){
-	    echo '<link href="css/bounty.css?2" rel="stylesheet">';
+	    echo '<link href="css/bounty.css?3" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Bounty кампания</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "promo"){
 	    echo '<link href="css/promo.css?1" rel="stylesheet">';
