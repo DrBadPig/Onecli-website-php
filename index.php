@@ -17,7 +17,7 @@
 	<!-- подгружаем нужный нам класс стилей -->
 	<?php
 	  if($_SERVER['QUERY_STRING'] == "room"){
-	    echo '<link href="css/invest.css?3" rel="stylesheet">';
+	    echo '<link href="css/invest.css?4" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Инвестиции в ONECLI</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "faq"){
 	    echo '<link href="css/faq3.css" rel="stylesheet">';
@@ -36,6 +36,7 @@
         echo '<title>ONECLI. - Тестовая версия / Настройки</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "lots"){
 	    echo '<link href="css/lots.css?4" rel="stylesheet">';
+	    echo '<link href="css/history.css" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Лоты</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "team"){
 	    echo '<link href="css/team.css?4" rel="stylesheet">';

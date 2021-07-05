@@ -19,10 +19,6 @@
       $email = $row['email'];
     }	
   }
-  $balance = rand(15025, 36811)/100;
-  $balance2 = rand(652153, 1012896)/100;
-  $reit = rand(5,10);
-  $team = number_format(rand(1699,3456), 0, ',', ' ');
   $shract = number_format(rand(565651, 1523446), 0, ',', ' ');
   $shract_s = number_format(rand(1523664, 3540034), 0, ',', ' ');
   $prc = rand(15694362,35856655);
@@ -237,22 +233,6 @@
 		
 		<!--SHARES INFO-->
 		<div class="shares-info div-flex df-spaceb container">
-			<div class="si-block light-green"  onclick="send_balance()">
-				<span>Баланс</span>
-				<span class="value"><?php echo $balance; ?>$</span>
-			</div>
-			<div class="si-block green">
-				<span>Всего заработано</span>
-				<span class="value"><?php echo $balance2; ?>$</span>
-			</div>
-			<div class="si-block green">
-				<span>Команда</span>
-				<span class="value"><?php echo $team; ?></span>
-			</div>
-			<div class="si-block green">
-				<span>Мой рейтинг</span>
-				<span class="value"><?php echo $reit; ?></span>
-			</div>
 			<div class="si-block gray">
 				<span>Мои активные доли</span>
 				<span class="value"><?php echo $shract; ?></span>

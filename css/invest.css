@@ -382,7 +382,7 @@
 
 .shares-info {
 	width: 100%;
-	height: 200px;
+	/*height: 200px;*/
 	flex-wrap: wrap;
 }
 
@@ -1284,7 +1284,8 @@
 	}
 	
 	.idea-brief-about-wrapper {
-		height: 353px;
+		height: 100%;
+		width: 100%;
 	}
 }
 
@@ -1326,7 +1327,7 @@
 	}
 	/*	shares info section*/
 	.shares-info {
-		height: 400px;
+		/*height: 400px;*/
 	}
 	.si-block {
 		width: 49%; 
@@ -1702,7 +1703,7 @@
 	}
 	/*	shares info section*/
 	.shares-info {
-		height: 800px;
+		/*height: 800px;*/
 	}
 	.si-block {
 		width: 100%; 
