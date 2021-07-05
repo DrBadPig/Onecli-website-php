@@ -47,95 +47,6 @@ input[type=text] {
   	background-color: #4F5A7A;
 }
 
-/*SWITCHER STYLE*/
-.switch {
-  	position: relative;
-  	display: inline-block;
-  	width: 60px;
-  	height: 34px;
-}
-
-.switch input {	
-	display:none;
-}
-
-.slider {
-  	position: absolute;
-  	cursor: pointer;
-  	top: 0;
- 	left: 0;
- 	right: 0;
- 	bottom: 0;
- 	background-color: #ccc;
-  	-webkit-transition: .4s;
-  	transition: .4s;
-	border-radius: 34px;
-}
-
-.slider:before {
-  	position: absolute;
-  	content: "";
-  	height: 26px;
-  	width: 26px;
-  	left: 4px;
-  	bottom: 4px;
-  	background-color: white;
-  	-webkit-transition: .4s;
-  	transition: .4s;
-	border-radius: 50%;
-}
-
-input[type=checkbox]:checked + .slider {
-  	background-color: #34C38D;
-}
-
-input[type=checkbox]:focus + .slider {
-  	box-shadow: 0 0 1px #34C38D;
-}
-
-input[type=checkbox]:checked + .slider:before {
-  	-webkit-transform: translateX(26px);
-  	-ms-transform: translateX(26px);
-	transform: translateX(26px);
-}
-
-.btn {
-	width: auto;
-	background-color: #34c38d;
-	border-radius: 8px;
-	padding: 18px 25px;
-	color: #ffffff;
-	outline: 0px;
-	cursor: pointer;
-}
-
-.text-area {
-	width: auto;
-	background-color: #ffffff;
-	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
-	text-align: center;
-	border-radius: 8px;
-	padding: 18px 25px;
-	color: #000000;
-	outline: 0px;
-}
-
-.btn-gray {
-	background-color: #4f5a7b;
-}
-
-.btn-shadow {
-	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
-}
-
-.btn:hover {
-	background-color: #2da87a;
-}
-
-.btn-gray:hover {
-	background-color: #434c69;
-}
-
 /*------------------CUSTOM SELECT--------------*/
 
 select {
@@ -178,6 +89,47 @@ option:last-child {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
+}
+
+/*SHARE EXCHANGE*/
+
+.modal-share-exchange {
+	width: 386px;
+	height: 210px;
+}
+
+.modal-share-exchange-wrapper {
+	width: 100%;
+	height: 149px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	
+	text-align: center;
+}
+
+.modal-share-exchange-wrapper .modal-header {
+	color: #ffffff;
+	font-size: 18px;
+	background-color: #e36d6d;
+	height: 48px;
+	width: 99%;
+	
+	border-radius: 8px 8px 0px 0px;
+	margin: 0.5%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-share-exchange-wrapper p {
+	font-size: 14px;
+	padding: 0px 30px;
+}
+
+.modal-share-exchange-wrapper > span {
+	color: #797b83;
+	font-size: 12px;
 }
 
 /* MODAL NOTIFY */
@@ -249,7 +201,191 @@ option:last-child {
 	cursor: pointer;
 }
 
+/*------------------MODAL SEND--------------*/
 
+/*SEND SHARES*/
+
+.modal-send {
+	width: 594px;
+	height: 529px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-send-wrapper {
+	width: 95%;
+	height: 83%;
+	background-color: #ffffff;
+	
+	position: relative;
+	
+	border-radius: 8px 8px 0px 0px;
+	border: 2px solid #34c38d;
+}
+
+.modal-your-balance {
+	width: 90%;
+	height: 50px;
+	background-color: #8b99c2;
+	
+	border-radius: 8px;
+	border: 1px solid #8b99c2;
+}
+
+.modal-your-balance span {
+	margin: 0px 0px 0px 15px;
+}
+
+.modal-your-balance div {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: #97a3c8;
+	border-radius: 8px;
+	height: 100%;
+	width: 60%;
+}
+
+.modal-your-balance div span {
+	margin: 0px 15px 0px 0px;
+}
+
+.modal-send-wrapper input[type=text] {
+	width: 90%;
+}
+
+.modal-send-sms {
+	width: 90%;
+	height: 45px;
+}
+
+.modal-send-sms button {
+	width: 62%;
+	padding: 13px 10px;
+}
+
+.modal-send-sms input[type=text] {
+	width: 35%;
+}
+
+.modal-timer {
+	width: 90%;
+	height: 60px;
+}
+
+.modal-timer-wrapper {
+	width: 44%;
+	height: 60px;
+	background-color: #8b99c2;
+	font-size: 16px;
+	color: #ffffff;
+	border-radius: 8px;
+}
+
+.modal-timer-wrapper > span {
+	margin: 0px 0px 0px 10px;
+}
+
+.modal-timer > div:last-child {
+	width: 54%;
+}
+
+.modal-timer > div:last-child span:last-child {
+	cursor: pointer;
+}
+
+.modal-timer-wrapper .seconds {
+	width: 50px;
+	height: 50px;
+	background-color: #97a3c8;
+	margin: 0px 7px 0px 0px;
+	border-radius: 30px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-timer-wrapper .seconds span {
+	font-size: 28px;
+}
+
+.modal-accept-btn {
+	width: 90%;
+	height: 50px;
+	margin: 0px 0px 10px 0px;
+}
+
+.modal-send-shares-footer {
+	width: 95%;
+	height: 11%;
+	
+	border-radius: 0px 0px 8px 8px;
+	border: 2px solid #34c38d;
+}
+
+/* SEND BALANCE */
+
+.modal-send-wrapper > span {
+	margin: 10px 0px 5px 0px;
+}
+
+.modal-send-wrapper > span span:first-child{
+	cursor: pointer;
+}
+
+.modal-send-wrapper > span span:last-child{
+	cursor: pointer;
+}
+
+.modal-share-info {
+	width: 90%;
+	height: 40px;
+}
+
+.modal-share-info div {
+	height: 30px;
+	border-radius: 8px;
+}
+
+.modal-share-info div span {
+	margin: 0px 10px;
+}
+
+.modal-share-info div svg {
+	margin: 0px 10px;
+}
+
+.modal-share-info .shares-to-buy {
+	width: 56%;
+}
+
+.modal-share-info .share-price {
+	width: 64%;
+}
+
+/*-----------------PAST HEADER------------------*/
+
+/*MODAL CLOSE BUTTON TOP*/
+
+.modal-close-button-top {
+	position: absolute;
+	top: 20px;
+	left: calc(50% - 26px);
+	cursor: pointer;
+}
+
+.modal-close-button-top .close-button-top-circle {
+	display: none;
+}
+
+.modal-close-button-top:hover .close-button-top-circle {
+	display: inline;
+}
 
 
 /*MODAL CONTENT*/
@@ -362,6 +498,10 @@ option:last-child {
 
 .t-size-28 {
 	font-size: 28px;
+}
+
+.t-size-40 {
+	font-size: 40px;
 }
 
 .t-gray {
@@ -493,7 +633,6 @@ option:last-child {
 	.modals-notify {
 		left: 0px;
 	}
-
 /*	MAIN CONTENT*/
 	.main-content {
 		top: 69px;
@@ -519,6 +658,77 @@ option:last-child {
 		left: 0px;
 	
 		padding: 24px;
+	}
+	/*------------MODAL SEND-----------------*/
+	/*	SEND SHARES*/
+	.modal-send {
+		width: 335px;
+		height: 579px;
+	}
+	.modal-send h2 {
+		font-size: 12px;
+	}
+	.modal-send input[type="text"] {
+		font-size: 12px;
+	}
+	.modal-your-balance > span {
+		font-size: 15px;
+	}
+	.modal-your-balance div span {
+		font-size: 19px;
+	}
+	.modal-send-sms {
+		height: 90px;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.modal-send-sms input[type=text] {
+		width: 100%;
+	}
+	.modal-send-sms button {
+		width: 100%;
+		height: 50px;
+	}
+	.modal-timer {
+		height: 110px;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.modal-timer-wrapper {
+		width: 100%;
+		font-size: 12px;
+	}
+	.modal-timer-wrapper .seconds span {
+		font-size: 20px;
+	}
+	.modal-timer-wrapper .seconds {
+		width: 45px;
+		height: 45px;
+		font-size: 20px;
+	}
+	.modal-timer > div:last-child {
+		width: 100%;
+		height: 70px;
+		justify-content: center;
+		font-size: 12px;
+	}
+	.modal-send-shares-footer {
+		font-size: 12px;
+	}
+	.modal-send-wrapper > span {
+		font-size: 12px;
+		margin: 10px 0px 5px 0px;
+	}
+	.modal-share-info {
+		width: 90%;
+		height: 40px;
+		font-size: 12px;
+	}
+	.modal-share-info .shares-to-buy {
+		width: 46%;
+	}
+	.modal-share-info .share-price {
+		width: 54%;
 	}
 }
 
@@ -625,47 +835,4 @@ input[type=checkbox]:checked + .slider:before {
       position: absolute;
       line-height: 125px;
       width: 100%;
-}
-
-
-
-
-/*SHARE EXCHANGE*/
-.modal-share-exchange {
-	width: 386px;
-	height: 210px;
-}
-
-.modal-share-exchange-wrapper {
-	width: 100%;
-	height: 149px;
-	background-color: #ffffff;
-	border-radius: 8px;
-	
-	text-align: center;
-}
-
-.modal-share-exchange-wrapper .modal-header {
-	color: #ffffff;
-	font-size: 18px;
-	background-color: #e36d6d;
-	height: 48px;
-	width: 99%;
-	
-	border-radius: 8px 8px 0px 0px;
-	margin: 0.5%;
-	
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.modal-share-exchange-wrapper p {
-	font-size: 14px;
-	padding: 0px 30px;
-}
-
-.modal-share-exchange-wrapper > span {
-	color: #797b83;
-	font-size: 12px;
 }
