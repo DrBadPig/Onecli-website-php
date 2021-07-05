@@ -75,6 +75,10 @@ body {
 	font-size: 14px;
 }
 
+.modals {
+	top: 0px;
+}
+
 /*MEDIA*/
 
 @media screen and (min-width: 1366px) {
