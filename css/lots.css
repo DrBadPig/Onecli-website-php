@@ -1,12 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*MODALS*/
-
-/*SEND SUCCESS*/
-
-
-
 .current-balance {
   border-radius: 8px 8px 0px 0px;
   height: 30px;
@@ -25,6 +19,9 @@
   color: #ffffff;
 }
 
+/*MODALS*/
+
+/*SEND SUCCESS*/
 
 .send-success-modal, .money-processing-modal, .ordering-modal, .send-friend-modal, .cart-modal, .refill-modal, .withdraw-modal {
 	width: 321px;
@@ -182,9 +179,10 @@
 
 .cart-modal .cart-table {
 	width: 100%;
-	height: 394px;
-	text-align: center;
-	border-spacing: 0px 12px;
+    text-align: center;
+    border-spacing: 0px 12px;
+    position: absolute;
+    top: 20px;
 }
 
 .cart-table th {
@@ -194,6 +192,7 @@
 
 .cart-table tr {
 	box-shadow: 0px 0.5px 3px 0px #7a7a7a;
+	height: 42px;
 }
 
 .cart-table tr:hover, .cart-table tr:hover td:nth-child(2), .cart-table tr:hover td:nth-child(5) {
@@ -221,10 +220,17 @@
 .cart-modal .bottom-menu {
 	width: 100%;
 	height: 50px;
-	
+	position: absolute;
+    bottom: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+}
+
+.cart-table tr td:last-child {
+	background-color: #34C38D;
+	color: #ffffff;
+	cursor: pointer;
 }
 
 .cart-modal .bottom-menu .pager {
@@ -667,6 +673,8 @@
 
 .lot svg {
 	position: absolute;
+	
+	
 }
 
 .lot .total-price, .lot .timer, .lot .true-price {
@@ -948,6 +956,18 @@
 	border-radius: 0px;
 }
 
+/*MODAL WITHDRAW*/
+
+.sum-onx, .sum-dol {
+	position: absolute;
+	top: -15px;
+	color: #34C38D;
+}
+
+.sum-dol {
+	left: 256px;
+}
+
 /*MEDIA*/
 
 @media screen and (min-width: 1366px) {
@@ -1168,6 +1188,13 @@
 	}
 	.pager .pages .second {
 		display: flex;
+	}
+	/*MODAL WITHDRAW*/
+	.sum-onx, .sum-dol {
+	}
+
+	.sum-dol {
+		left: 52%;
 	}
 }
 
@@ -1501,5 +1528,14 @@
 		left: 10px;
 		bottom: 6px;
 		font-size: 14px;
+	}
+		/*MODAL WITHDRAW*/
+	.sum-onx, .sum-dol {
+		right: 0px;
+    	top: 9px;
+	}
+	.sum-dol {
+		left: auto;
+    	top: 54px;
 	}
 }

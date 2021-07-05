@@ -195,7 +195,7 @@
 			</div>
 		</div>
 		
-		<!--REFILL MODAL-->
+		<!--WITHDRAW MODAL-->
 		<div style="display: none;" class="withdraw-modal" id="sell">
 			<div class="modal-full-wrapper">
 				<div class="modal-close-button" onclick="divOffVis('sell')">
@@ -229,25 +229,12 @@
 						<div id="ps12" onclick='imgSetS("ps12")' class="payment-text">WalletOne</div>
 					</div>
 				</div>
-				<div class="choose-payment" style="display:none">
-					<span class="t-bold-300">Выберите платежную систему:</span>
-					<div>
-						<select size="1">
-							<option value="1">Visa/MasterCard</option>
-							<option value="2">Visa/MasterCard</option>
-							<option value="3">Visa/MasterCard</option>
-						</select>
-						<label class="switch">
-  							<input type="checkbox">
-  							<span class="slider round"></span>
-						</label>
-						<span class="t-black t-bold-300">Запомнить выбор</span>
-					</div>
-				</div>
 				<div class="sum">
-					<div>
-						<input type="text" placeholder="Сумма ONX" id="buyONX_sell" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1'); buy_startF_sell(this.value)">
-						<input type="text" placeholder="Сумма $" id="buyDollar_sell" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1'); buy_endF_sell(this.value)">
+					<div style="position: relative;">
+						<span class="sum-onx">Сумма ONX</span>
+						<input type="text" id="buyONX_sell" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1'); buy_startF_sell(this.value)">
+						<span class="sum-dol">Сумма $</span>
+						<input type="text" id="buyDollar_sell" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1'); buy_endF_sell(this.value)">
 					</div>
 					<button class="btn" onclick='sellMoney();'>Вывести</button>
 				</div>
