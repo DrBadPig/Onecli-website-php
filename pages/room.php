@@ -297,97 +297,6 @@
 			</div>
 		</div>
 		
-		<!--MAIN PROJECT INFO-->
-		<div class="main-info-brief container">
-			<div class="main-info-brief-wrapper">
-				<div class="info-line">
-					<span class="left-info">Направление стартапа:</span>
-					<span class="right-info">Валютный аукцион, P2P биржа, Нетворкинг</span>
-				</div>
-				<div class="info-line">
-					<span class="left-info">Выход Beta-версии продукта:</span>
-					<span class="right-info">Третий квартал 2019</span>
-				</div>
-				<div class="info-line">
-					<span class="left-info">Страна регистрации:</span>
-					<span class="right-info">Великобритания</span>
-				</div>
-				<div class="info-line">
-					<span class="left-info">Валюта стартапа:</span>
-					<span class="right-info">Внутренняя валюта "ONX"</span>
-				</div>
-				<div class="info-line">
-					<span class="left-info">Язык стартапа:</span>
-					<span class="right-info">Мультиязычный</span>
-				</div>
-				<div class="info-line">
-					<span class="left-info">Тип инвестирования (1 этап):</span>
-					<span class="right-info">Краудинвестинг</span>
-				</div>
-				<div class="info-line">
-					<span class="left-info">Продажа долей:</span>
-					<span class="right-info">Открыта</span>
-				</div>
-			</div>
-			<span class="t-size-12 t-gray t-bold-300">0 502 23 515 32 79 842 59123 92 9 60013 706869 695 85 8 7 9 17782 9 7 9593 82 96 177 959 12 7 39 82 06069 5959 28 5934</span>
-		</div>	
-		
-		<!--INVESTMENT STAGES SECTION-->
-		<div class="investment-stages container">
-			<!-- header -->
-			<div class="investment-stages-header div-flex-two">
-				<svg class="ssf-circle" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
-  					<circle cx="7.5" cy="7.5" r="7.5" fill="#34c28d"/>
-				</svg>
-				<h2 class="t-main t-uppercase">Этапы инвестирования (1/3)</h2>
-			</div>
-			<!-- stages wrapper -->
-			<div class="investment-stages-wrapper">
-				<!-- first stage -->
-				<div class="investment-stage">
-					<div class="status open div-flex df-right">
-						<span>Открыт</span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="9.637" height="9.637" viewBox="0 0 9.637 9.637">
-  							<path d="M5,12.572H7.065v2.065H8.442V11.2H5ZM7.065,7.065H5V8.442H8.442V5H7.065Zm4.13,7.572h1.377V12.572h2.065V11.2H11.2Zm1.377-7.572V5H11.2V8.442h3.442V7.065Z" transform="translate(-5 -5)" fill="#fff"/>
-						</svg>
-					</div>
-					<p class="t-bold-300">
-						<span class="t-uppercase t-size-20 t-lspacing-2 t-bold-400">1 этап</span><br><br>
-						Первый этап инвестиций. Сумма сбора средств 570 000$ - 10% дохода компании / 10 млн. долей для продажи. Самые выгодные инвестиции, в соотношении суммы и процента. На данном этапе происходит разработка, тестирование, выпуск Beta-версии продукта на рынок и первичная рекламная 
-					</p>
-					<span class="t-gray t-uppercase">10% / 10 млн долей</span>
-				</div>
-				<!-- second stage -->
-				<div class="investment-stage">
-					<div class="status close div-flex df-right">
-						<span>Закрыт</span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
-							<path d="M15,6.007,13.993,5,10,8.993,6.007,5,5,6.007,8.993,10,5,13.993,6.007,15,10,11.007,13.993,15,15,13.993,11.007,10Z" transform="translate(-5 -5)" fill="#fff"/>
-						</svg>
-					</div>
-					<p class="t-bold-300">
-						<span class="t-uppercase t-size-20 t-lspacing-2 t-bold-400">2 этап</span><br><br>
-						Второй этап инвестиций. Сумма сбора средств и % будет рассчитан после первого этапа инвестиций. На данном этапе уже запущена Beta-версия продукта, компания начинает токенизацию долей стартапа и подготовку к листингу на официальных криптовалютных биржах.
-					</p>
-					<span class="t-gray t-uppercase">?????</span>
-				</div>
-				<!-- third stage -->
-				<div class="investment-stage">
-					<div class="status close div-flex df-right">
-						<span>Закрыт</span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
-							<path d="M15,6.007,13.993,5,10,8.993,6.007,5,5,6.007,8.993,10,5,13.993,6.007,15,10,11.007,13.993,15,15,13.993,11.007,10Z" transform="translate(-5 -5)" fill="#fff"/>
-						</svg>
-					</div>
-					<p class="t-bold-300">
-						<span class="t-uppercase t-size-20 t-lspacing-2 t-bold-400">3 этап</span><br><br>
-						Третий этап инвестиций. Сумма сбора средств и % будет рассчитан после второго круга инвестиций. На данном этапе компания уже полностью функционирует самостоятельно и находится в стадии активного роста. Происходит листинг токенов на биржи, идет этап масштабирования и преумножения общей прибыли компании.
-					</p>
-					<span class="t-gray t-uppercase">?????</span>
-				</div>
-			</div>
-		</div>
-		
 		<!--BECOME SHAREHOLDER SECTION-->
 		<div class="become-shareholder container">
 			<h2 class="t-bold-400 t-uppercase t-size-28 t-lspacing-1">Стать дольщиком Onecli.</h2>
@@ -511,294 +420,96 @@
 			</div>
 		</div>
 		
-		<!--PERSONAL STATS-->
-		<div class="stats-block container">
-			<h2 class="t-main t-bold-400 t-size-20 t-lspacing-7 t-uppercase">Личная статистика</h2>
-			<div class="personal-stats-wrapper">
-				<div class="stats">
-					<span>Заработано реферальных:</span>
-					<span>115.190$</span>
+			<!--MAIN PROJECT INFO-->
+		<div class="main-info-brief container">
+			<div class="main-info-brief-wrapper">
+				<div class="info-line">
+					<span class="left-info">Направление стартапа:</span>
+					<span class="right-info">Валютный аукцион, P2P биржа, Нетворкинг</span>
 				</div>
-				<div class="stats">
-					<span>Всего рефералов:</span>
-					<span>185</span>
+				<div class="info-line">
+					<span class="left-info">Выход Beta-версии продукта:</span>
+					<span class="right-info">Третий квартал 2019</span>
 				</div>
-				<div class="stats">
-					<span>Стоимость моих долей:</span>
-					<span>2318.64$</span>
+				<div class="info-line">
+					<span class="left-info">Страна регистрации:</span>
+					<span class="right-info">Великобритания</span>
 				</div>
-				<div class="stats">
-					<span>Мой процент в компании:</span>
-					<span>0,02665067%</span>
+				<div class="info-line">
+					<span class="left-info">Валюта стартапа:</span>
+					<span class="right-info">Внутренняя валюта "ONX"</span>
 				</div>
-			</div>
-		</div>
-		
-		<!--GLOBAL STATS-->
-		<div class="stats-block container">
-			<h2 class="t-main t-bold-400 t-size-20 t-lspacing-7 t-uppercase">Общая статистика</h2>
-			<div class="global-stats-wrapper">
-				<div class="stats">
-					<span>Всего инвестировано:</span>
-					<span>2318.64$</span>
+				<div class="info-line">
+					<span class="left-info">Язык стартапа:</span>
+					<span class="right-info">Мультиязычный</span>
 				</div>
-				<div class="stats">
-					<span>Всего зарегистрировано:</span>
-					<span>2318.64$</span>
+				<div class="info-line">
+					<span class="left-info">Тип инвестирования (1 этап):</span>
+					<span class="right-info">Краудинвестинг</span>
 				</div>
-				<div class="stats">
-					<span>Всего дольщиков:</span>
-					<span>250</span>
-				</div>
-				<div class="stats">
-					<span>Выплачено реферальных:</span>
-					<span>8742.57$</span>
-				</div>
-				<div class="stats">
-					<span>Зарегистрировано сегодня:</span>
-					<span>32 человека</span>
+				<div class="info-line">
+					<span class="left-info">Продажа долей:</span>
+					<span class="right-info">Открыта</span>
 				</div>
 			</div>
-		</div>
+			<span class="t-size-12 t-gray t-bold-300">0 502 23 515 32 79 842 59123 92 9 60013 706869 695 85 8 7 9 17782 9 7 9593 82 96 177 959 12 7 39 82 06069 5959 28 5934</span>
+		</div>	
 		
-		<div class="operation-list container">
-			<table class="operations">
-				<tr>
-					<th>ID</th>
-					<th>Дата</th>
-					<th class="more"></th>
-					<th>Операция</th>
-					<th>Сумма</th>
-					<th>Баланс</th>
-					<th>Статус</th>
-				</tr>
-				<tr class="inprogress">
-					<td>278</td>
-					<td>08.12.2021 / 11:39</td>
-					<td class="more inprogress">Подробнее...</td>
-					<td>ВЫВОД СТРЕДСТВ</td>
-					<td>0.0200000 $</td>
-					<td>555.555 $</td>
-					<td>В процессе</td>
-				</tr>
-				<tr class="success">
-					<td>278</td>
-					<td>08.12.2021 / 11:39</td>
-					<td class="more success">Подробнее...</td>
-					<td>ВЫВОД СТРЕДСТВ</td>
-					<td>0.0200000 $</td>
-					<td>555.555 $</td>
-					<td>Выполнено</td>
-				</tr>
-				<tr class="success">
-					<td>278</td>
-					<td>08.12.2021 / 11:39</td>
-					<td class="more success">Подробнее...</td>
-					<td>ВЫВОД СТРЕДСТВ</td>
-					<td>0.0200000 $</td>
-					<td>555.555 $</td>
-					<td>Выполнено</td>
-				</tr>
-				<tr class="success">
-					<td>278</td>
-					<td>08.12.2021 / 11:39</td>
-					<td class="more success">Подробнее...</td>
-					<td>ВЫВОД СТРЕДСТВ</td>
-					<td>0.0200000 $</td>
-					<td>555.555 $</td>
-					<td>Выполнено</td>
-				</tr>
-				<tr class="failure">
-					<td>278</td>
-					<td>08.12.2021 / 11:39</td>
-					<td class="more failure">Подробнее...</td>
-					<td>ВЫВОД СТРЕДСТВ</td>
-					<td colspan="2">Нажмите, чтобы узанть подробности</td>
-					<td>Отказано</td>
-				</tr>
-				<tr class="success">
-					<td>278</td>
-					<td>08.12.2021 / 11:39</td>
-					<td class="more success">Подробнее...</td>
-					<td>ВЫВОД СТРЕДСТВ</td>
-					<td>0.0200000 $</td>
-					<td>555.555 $</td>
-					<td>Выполнено</td>
-				</tr>
-				<tr class="success">
-					<td>278</td>
-					<td>08.12.2021 / 11:39</td>
-					<td class="more success">Подробнее...</td>
-					<td>ВЫВОД СТРЕДСТВ</td>
-					<td>0.0200000 $</td>
-					<td>555.555 $</td>
-					<td>Выполнено</td>
-				</tr>
-				<tr class="success">
-					<td>278</td>
-					<td>08.12.2021 / 11:39</td>
-					<td class="more success">Подробнее...</td>
-					<td>ВЫВОД СТРЕДСТВ</td>
-					<td>0.0200000 $</td>
-					<td>555.555 $</td>
-					<td>Выполнено</td>
-				</tr>
-			</table>
-			<div class="operations-table-pager div-flex df-spaceb t-gray">
-				<button>
-					<svg class="svg-pager" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-						<g fill="none" stroke="#4f5a7b" stroke-width="1">
-							<circle cx="12.5" cy="12.5" r="12.5" stroke="none"></circle>
-							<circle cx="12.5" cy="12.5" r="12" fill="none"></circle>
-						</g>
-						<path d="M6.1,11.079h0L0,5.477,6.1,0l.818,1.267L2.334,5.477,7,9.766v.1l-.9,1.213Z" transform="translate(8.3 6.563)" fill="#4f5a7b"></path>
-					</svg>
-				</button>
-				<p>
-					<span class="current-page">1</span> | <span class="total-pages">35</span>
-				</p>
-				<button>
-					<svg class="svg-pager" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-						<g fill="none" stroke="#4f5a7b" stroke-width="1">
-							<circle cx="12.5" cy="12.5" r="12.5" stroke="none"></circle>
-							<circle cx="12.5" cy="12.5" r="12" fill="none"></circle>
-						</g>
-						<path d="M6.1,0h0L0,5.6l6.1,5.477.818-1.267L2.334,5.6,7,1.313v-.1L6.1,0Z" transform="translate(16.7 17.642)rotate(180)" fill="#4f5a7b"></path>
-					</svg>
-				</button>
-			</div>
-		</div>
-		
-		
-		<!--SHARE EXCHANGE-->
-		<div class="share-exchange-block container">
-			<div class="decorative"></div>
-			<h2 class="t-main t-size-18 t-bold-400 t-uppercase">Биржа долей</h2>
-			<div class="tag">Скоро*</div>
-			<div class="share-exchange-wrapper">
-				<svg class="svg-pager" xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29">
-				  	<g transform="translate(28) rotate(90)">
-						<g fill="none" stroke="#34c28d" stroke-width="1">
-					  		<ellipse cx="14.5" cy="14" rx="14.5" ry="14" stroke="none"/>
-					  		<ellipse cx="14.5" cy="14" rx="14" ry="13.5" fill="none"/>
-						</g>
-						<path d="M7.029,12.776h0L0,6.315,7.029,0l.943,1.461L2.691,6.315l5.381,4.947v.115l-1.043,1.4Z" transform="translate(9.05 7.568)" fill="#34c28d"/>
-				  	</g>
+		<!--INVESTMENT STAGES SECTION-->
+		<div class="investment-stages container">
+			<!-- header -->
+			<div class="investment-stages-header div-flex-two">
+				<svg class="ssf-circle" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  					<circle cx="7.5" cy="7.5" r="7.5" fill="#34c28d"/>
 				</svg>
-				<div class="share-exchangers-wrapper">
-					<table class="exhangers-table">
-						<tr>
-						  	<td>Richman</td>
-						  	<td>5000 долей</td>
-						  	<td>3000,99$</td>
-						  	<td class="pro">PRO</td>
-						  	<td>My price: 0.071$</td>
-						  	<td>Market price: 0.077$</td>
-						 </tr>
-						<tr>
-						  	<td>Richman</td>
-						  	<td>5000 долей</td>
-						  	<td>3000,99$</td>
-						  	<td class="start">Start</td>
-						  	<td>My price: 0.071$</td>
-						  	<td>Market price: 0.077$</td>
-						 </tr>
-						<tr>
-						  	<td>Richman</td>
-						  	<td>5000 долей</td>
-						  	<td>3000,99$</td>
-						  	<td class="vip">Vip</td>
-						  	<td>My price: 0.071$</td>
-						  	<td>Market price: 0.077$</td>
-						 </tr>
-						<tr>
-						  	<td>Richman</td>
-						  	<td>5000 долей</td>
-						  	<td>3000,99$</td>
-						  	<td class="business">Business</td>
-						  	<td>My price: 0.071$</td>
-						  	<td>Market price: 0.077$</td>
-						 </tr>
-						<tr>
-						  	<td>Richman</td>
-						  	<td>5000 долей</td>
-						  	<td>3000,99$</td>
-						  	<td class="free">Free</td>
-						  	<td>My price: 0.071$</td>
-						  	<td>Market price: 0.077$</td>
-						 </tr>
-					</table>
-				</div>
-				<svg class="svg-pager" xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29">
-				  	<g transform="translate(28 -0.224) rotate(90)">
-						<g transform="translate(0.224)" fill="none" stroke="#34c28d" stroke-width="1">
-					  		<ellipse cx="14.5" cy="14" rx="14.5" ry="14" stroke="none"/>
-					  		<ellipse cx="14.5" cy="14" rx="14" ry="13.5" fill="none"/>
-						</g>
-						<path d="M7.029,0h0L0,6.461l7.029,6.315.943-1.461L2.691,6.461,8.073,1.514V1.4L7.03,0Z" transform="translate(19.444 20.345) rotate(180)" fill="#34c28d"/>
-				  	</g>
-				</svg>
+				<h2 class="t-main t-uppercase">Этапы инвестирования (1/3)</h2>
 			</div>
-		</div>
-		
-		
-		<!--NEWS BLOCK-->
-		<div class="news-block">
-			<div class="news-header">
-				<span class="t-uppercase t-size-14">News | Новости</span>
-				<span class="t-uppercase t-size-14">News | Новости</span>
-				<span class="t-uppercase t-size-14">News | Новости</span>
-				<span class="t-uppercase t-size-14">News | Новости</span>
-				<span class="t-uppercase t-size-14">News | Новости</span>
-			</div>
-			<div class="news-wrapper">
-				<div class="news-item">
-					<div class="news-about">
-						<div class="div-flex-two">
-							<img src="../images/bvadimnikol.jpg" alt="admin">
-							<span class="t-size-16 t-main">Администратор</span>
-						</div>
-						<span class="t-black t-size-14 t-bold-300">Март 2019</span>
+			<!-- stages wrapper -->
+			<div class="investment-stages-wrapper">
+				<!-- first stage -->
+				<div class="investment-stage">
+					<div class="status open div-flex df-right">
+						<span>Открыт</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="9.637" height="9.637" viewBox="0 0 9.637 9.637">
+  							<path d="M5,12.572H7.065v2.065H8.442V11.2H5ZM7.065,7.065H5V8.442H8.442V5H7.065Zm4.13,7.572h1.377V12.572h2.065V11.2H11.2Zm1.377-7.572V5H11.2V8.442h3.442V7.065Z" transform="translate(-5 -5)" fill="#fff"/>
+						</svg>
 					</div>
-					<div class="news-content" style="background: url(images/news-bg.jpg) 100% no-repeat;">
-						<p class="t-white t-size-16 t-bold-300">Информационный сайт доступен для ознакомления и приобретения долей Onecli.</p>
-						<div class="div-flex-two read-more">
-							<span class="t-main t-size-18 t-bold-500 t-uppercase">Читать далее</span>
-							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-							  	<g transform="translate(9) rotate(45)" fill="none" stroke="#34c28d" stroke-width="1">
-									<rect width="12.728" height="12.728" stroke="none"/>
-									<rect x="0.5" y="0.5" width="11.728" height="11.728" fill="none"/>
-							  	</g>
-							  	<path d="M7.033,6.467V5L9.6,7.567,7.033,10.133V8.63A4.533,4.533,0,0,0,3,10.5,4.654,4.654,0,0,1,7.033,6.467Z" transform="translate(2.558 0.916)" fill="#34c28d"/>
-							</svg>
-
-						</div>
-					</div>
+					<p class="t-bold-300">
+						<span class="t-uppercase t-size-20 t-lspacing-2 t-bold-400">1 этап</span><br><br>
+						Первый этап инвестиций. Сумма сбора средств 570 000$ - 10% дохода компании / 10 млн. долей для продажи. Самые выгодные инвестиции, в соотношении суммы и процента. На данном этапе происходит разработка, тестирование, выпуск Beta-версии продукта на рынок и первичная рекламная 
+					</p>
+					<span class="t-gray t-uppercase">10% / 10 млн долей</span>
 				</div>
-				<div class="news-item">
-					<div class="news-about">
-						<div class="div-flex-two">
-							<img src="../images/bvadimnikol.jpg" alt="admin">
-							<span class="t-size-16 t-main">Администратор</span>
-						</div>
-						<span class="t-black t-size-14 t-bold-300">Март 2019</span>
+				<!-- second stage -->
+				<div class="investment-stage">
+					<div class="status close div-flex df-right">
+						<span>Закрыт</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+							<path d="M15,6.007,13.993,5,10,8.993,6.007,5,5,6.007,8.993,10,5,13.993,6.007,15,10,11.007,13.993,15,15,13.993,11.007,10Z" transform="translate(-5 -5)" fill="#fff"/>
+						</svg>
 					</div>
-					<div class="news-content" style="background: url(images/news-bg.jpg) 100% no-repeat;">
-						<p class="t-white t-size-16 t-bold-300">Информационный сайт доступен для ознакомления и приобретения долей Onecli.</p>
-						<div class="div-flex-two read-more">
-							<span class="t-main t-size-18 t-bold-500 t-uppercase">Читать далее</span>
-							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-							  	<g transform="translate(9) rotate(45)" fill="none" stroke="#34c28d" stroke-width="1">
-									<rect width="12.728" height="12.728" stroke="none"/>
-									<rect x="0.5" y="0.5" width="11.728" height="11.728" fill="none"/>
-							  	</g>
-							  	<path d="M7.033,6.467V5L9.6,7.567,7.033,10.133V8.63A4.533,4.533,0,0,0,3,10.5,4.654,4.654,0,0,1,7.033,6.467Z" transform="translate(2.558 0.916)" fill="#34c28d"/>
-							</svg>
-
-						</div>
+					<p class="t-bold-300">
+						<span class="t-uppercase t-size-20 t-lspacing-2 t-bold-400">2 этап</span><br><br>
+						Второй этап инвестиций. Сумма сбора средств и % будет рассчитан после первого этапа инвестиций. На данном этапе уже запущена Beta-версия продукта, компания начинает токенизацию долей стартапа и подготовку к листингу на официальных криптовалютных биржах.
+					</p>
+					<span class="t-gray t-uppercase">?????</span>
+				</div>
+				<!-- third stage -->
+				<div class="investment-stage">
+					<div class="status close div-flex df-right">
+						<span>Закрыт</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+							<path d="M15,6.007,13.993,5,10,8.993,6.007,5,5,6.007,8.993,10,5,13.993,6.007,15,10,11.007,13.993,15,15,13.993,11.007,10Z" transform="translate(-5 -5)" fill="#fff"/>
+						</svg>
 					</div>
+					<p class="t-bold-300">
+						<span class="t-uppercase t-size-20 t-lspacing-2 t-bold-400">3 этап</span><br><br>
+						Третий этап инвестиций. Сумма сбора средств и % будет рассчитан после второго круга инвестиций. На данном этапе компания уже полностью функционирует самостоятельно и находится в стадии активного роста. Происходит листинг токенов на биржи, идет этап масштабирования и преумножения общей прибыли компании.
+					</p>
+					<span class="t-gray t-uppercase">?????</span>
 				</div>
 			</div>
 		</div>
+		
 	</main>
 	<script src="js/room.js?3"></script>

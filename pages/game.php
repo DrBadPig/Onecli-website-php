@@ -324,7 +324,7 @@
 				
 				<div class="prizes-more div-flex-two df-col">
 					<span>Подробнее о распределении призов можно узнать, изучив данную статью</span>
-					<a target="_blank" href="https://vk.com/@onecli-onecli-big-game-gotovimsya-k-bolshoi-igre" class="btn obj-w-100p" style="color: #ffffff;">Перейти в статью</a>
+					<a target="_blank" href="https://vk.com/@onecli-onecli-big-game-gotovimsya-k-bolshoi-igre" class="btn obj-w-100p" style="color: #ffffff; width: 100%;">Перейти в статью</a>
 				</div>
 				
 			</div>
