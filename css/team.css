@@ -186,15 +186,24 @@
 
 .affiliate-table tr {
 	background-color: #fbfbfb;
+	transition: 0.3s;
 }
 
 .affiliate-table tr:first-child {
 	background-color: #8b99c2;
 }
 
+.affiliate-table tr:first-child:hover {
+	background-color: #8b99c2;
+}
+
 .affiliate-table th {
 	font-weight: 400;
 	color: #ffffff;
+}
+
+.affiliate-table tr:hover {
+	background-color: #70d4af;
 }
 
 .affiliate-table tr th:nth-child(6) {
@@ -226,10 +235,8 @@
 
 .team-table {
 	width: 92%;
-	border-spacing: 20px 12px;
-	height: 480px;
+	border-spacing: 0px 11px;
 	margin: 0px 4%;
-	
 	text-align: left;
 }
 
@@ -257,14 +264,19 @@
 .team-table tr {
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
 	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.3s;
+	height: 72px;
 }
 
 .team-table tr:hover {
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
 }
 
 .team-table tr:first-child {
 	box-shadow: none;
+	cursor: default;
+	height: 50px;
 }
 
 .team-table tr:first-child:hover {
@@ -277,16 +289,18 @@
     height: 42px;
     border-radius: 50%;
     border: 1px solid #34C38D;
-    margin: 0px 15px 0px 0px;
+    margin: 0px 10px 0px 10px;
 }
 
 /*TABLE PAGER*/
 
 .team-table-pager {
 	width: 60%;
-	height: 80px;
-	margin: 0px 33%;
-	font-size: 14px;
+    height: 80px;
+    margin: 0px 33%;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
 }
 
 .svg-pager {

@@ -179,6 +179,98 @@
 			</div>
 		</div>
 		
+		<!--MY TEAM-->
+		<div class="team-table-wrapper container">
+			<table class="team-table">
+				<tr>
+					<th colspan="2">Имя</th>
+					<th class="team-email">E-mail</th>
+					<th class="team-reg-date">Дата регистрации</th>
+					<th class="team-mem-team">Команда</th>
+					<th>Бонус</th>
+					<th></th>
+  				</tr>
+				
+				<?php
+	
+
+    $prov = "SELECT * FROM $userstable where ref = '$id'";
+    $res = mysqli_query($connection,$prov);
+    $numberkk = mysqli_num_rows($res);
+    if($numberkk != 0){ 
+	  $b = 0;
+	  while ($row=mysqli_fetch_array($res)) { 
+	    $id_us = $row['id'];
+	    $prov1 = "SELECT * FROM user_info where uid = '$id_us'";
+        $res1 = mysqli_query($connection,$prov1);
+        $numberkk1 = mysqli_num_rows($res1);
+        if($numberkk1 == 0){ 
+	      $ava = "oneclickimgava.jpg";
+		  $name = "Не указано";
+	    }else{
+          while ($row1=mysqli_fetch_array($res1)) { 
+		    $uid = $row1['uid'];
+		    $name = $row1['name'];
+	        if($row1['ava'] == "0"){
+	          $ava = "oneclickimgava.jpg";
+		    }else{
+              $ava = $login.".jpg";
+		    }
+	      }
+		}
+	    $provs = "SELECT * FROM users where id = '$id_us'";
+        $ress = mysqli_query($connection,$provs);
+          while ($rows=mysqli_fetch_array($ress)) { 
+	        $email = $rows['email'];
+			$dts = $rows['dates'];
+			$login_us = $rows['login'];
+	      }
+		  
+		echo '<tr onclick="getInfo(\"'.$login_us.'\")">';
+		echo '<td><div style="background: url(avatars/'.$ava.'); background-position: center; background-size: cover;" class="team-member-image"></div></td>';
+		echo '<td>'.$name.'</td>';
+		echo '<td class="team-email">'.$email.'</td>';
+		echo '<td class="team-reg-date">'.$dts.'</td>';
+		echo '<td class="team-mem-team">0</td>';
+		echo '<td>0$</td>';
+		echo '<td class="t-main">Подробнее</td>';
+		echo '</tr>';
+      }	
+	}
+	
+	
+    mysqli_close($connection);
+	
+	
+	
+	?>
+	
+			</table>
+			<div class="team-table-pager div-flex df-spaceb t-gray">
+				<button>
+					<svg class="svg-pager" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+						<g fill="none" stroke="#4f5a7b" stroke-width="1">
+							<circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+							<circle cx="12.5" cy="12.5" r="12" fill="none"/>
+						</g>
+						<path d="M6.1,11.079h0L0,5.477,6.1,0l.818,1.267L2.334,5.477,7,9.766v.1l-.9,1.213Z" transform="translate(8.3 6.563)" fill="#4f5a7b"/>
+					</svg>
+				</button>
+				<p>
+					<span class="current-page">1</span>|<span class="total-pages">15</span>
+				</p>
+				<button>
+					<svg class="svg-pager" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+						<g fill="none" stroke="#4f5a7b" stroke-width="1">
+							<circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+							<circle cx="12.5" cy="12.5" r="12" fill="none"/>
+						</g>
+						<path d="M6.1,0h0L0,5.6l6.1,5.477.818-1.267L2.334,5.6,7,1.313v-.1L6.1,0Z" transform="translate(16.7 17.642)rotate(180)" fill="#4f5a7b"/>
+					</svg>
+				</button>
+			</div>
+		</div>
+		
 		<!--AFFILATE INFO-->
 		<div class="affiliate-info container">
 			<div class="personal-info div-flex df-spacea">
@@ -413,98 +505,6 @@
 					<td>25k долей</td>
 				</tr>
 			</table>
-		</div>
-		
-		<!--MY TEAM-->
-		<div class="team-table-wrapper container">
-			<table class="team-table">
-				<tr>
-					<th colspan="2">Имя</th>
-					<th class="team-email">E-mail</th>
-					<th class="team-reg-date">Дата регистрации</th>
-					<th class="team-mem-team">Команда</th>
-					<th>Бонус</th>
-					<th></th>
-  				</tr>
-				
-				<?php
-	
-
-    $prov = "SELECT * FROM $userstable where ref = '$id'";
-    $res = mysqli_query($connection,$prov);
-    $numberkk = mysqli_num_rows($res);
-    if($numberkk != 0){ 
-	  $b = 0;
-	  while ($row=mysqli_fetch_array($res)) { 
-	    $id_us = $row['id'];
-	    $prov1 = "SELECT * FROM user_info where uid = '$id_us'";
-        $res1 = mysqli_query($connection,$prov1);
-        $numberkk1 = mysqli_num_rows($res1);
-        if($numberkk1 == 0){ 
-	      $ava = "oneclickimgava.jpg";
-		  $name = "Не указано";
-	    }else{
-          while ($row1=mysqli_fetch_array($res1)) { 
-		    $uid = $row1['uid'];
-		    $name = $row1['name'];
-	        if($row1['ava'] == "0"){
-	          $ava = "oneclickimgava.jpg";
-		    }else{
-              $ava = $login.".jpg";
-		    }
-	      }
-		}
-	    $provs = "SELECT * FROM users where id = '$id_us'";
-        $ress = mysqli_query($connection,$provs);
-          while ($rows=mysqli_fetch_array($ress)) { 
-	        $email = $rows['email'];
-			$dts = $rows['dates'];
-			$login_us = $rows['login'];
-	      }
-		  
-		echo '<tr onclick="getInfo(\"'.$login_us.'\")">';
-		echo '<td><div style="background: url(avatars/'.$ava.'); background-position: center; background-size: cover;" class="team-member-image"></div></td>';
-		echo '<td>'.$name.'</td>';
-		echo '<td class="team-email">'.$email.'</td>';
-		echo '<td class="team-reg-date">'.$dts.'</td>';
-		echo '<td class="team-mem-team">0</td>';
-		echo '<td>0$</td>';
-		echo '<td class="t-main">Подробнее</td>';
-		echo '</tr>';
-      }	
-	}
-	
-	
-    mysqli_close($connection);
-	
-	
-	
-	?>
-	
-			</table>
-			<div class="team-table-pager div-flex df-spaceb t-gray">
-				<button>
-					<svg class="svg-pager" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-						<g fill="none" stroke="#4f5a7b" stroke-width="1">
-							<circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
-							<circle cx="12.5" cy="12.5" r="12" fill="none"/>
-						</g>
-						<path d="M6.1,11.079h0L0,5.477,6.1,0l.818,1.267L2.334,5.477,7,9.766v.1l-.9,1.213Z" transform="translate(8.3 6.563)" fill="#4f5a7b"/>
-					</svg>
-				</button>
-				<p>
-					<span class="current-page">1</span>|<span class="total-pages">15</span>
-				</p>
-				<button>
-					<svg class="svg-pager" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-						<g fill="none" stroke="#4f5a7b" stroke-width="1">
-							<circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
-							<circle cx="12.5" cy="12.5" r="12" fill="none"/>
-						</g>
-						<path d="M6.1,0h0L0,5.6l6.1,5.477.818-1.267L2.334,5.6,7,1.313v-.1L6.1,0Z" transform="translate(16.7 17.642)rotate(180)" fill="#4f5a7b"/>
-					</svg>
-				</button>
-			</div>
 		</div>
 		
 	</main>
