@@ -38,7 +38,7 @@
 	    echo '<link href="css/lots.css?3" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Лоты</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "team"){
-	    echo '<link href="css/team.css?3" rel="stylesheet">';
+	    echo '<link href="css/team.css?4" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Моя команда</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "authorization"){
 	    echo '<link href="css/login.css?4" rel="stylesheet">';
