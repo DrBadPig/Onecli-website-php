@@ -35,7 +35,7 @@
 	    echo '<link href="css/settings.css?4" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Настройки</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "lots"){
-	    echo '<link href="css/lots.css?4" rel="stylesheet">';
+	    echo '<link href="css/lots.css?5" rel="stylesheet">';
 	    echo '<link href="css/history.css" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Лоты</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "team"){
