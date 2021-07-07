@@ -42,10 +42,10 @@
 	    echo '<link href="css/team.css?5" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Моя команда</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "authorization"){
-	    echo '<link href="css/login.css?4" rel="stylesheet">';
+	    echo '<link href="css/login.css?5" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Авторизация</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "registration"){
-	    echo '<link href="css/signin.css?1" rel="stylesheet">';
+	    echo '<link href="css/signin.css?2" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Регистрация</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "game"){
 	    echo '<link href="css/game.css?1" rel="stylesheet">';
