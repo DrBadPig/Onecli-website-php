@@ -54,7 +54,8 @@
 
 .user-header-image {
 	width: 30px;
-	border-radius: 30px;
+	height: 30px;
+	border-radius: 50%;
 }
 
 /*LANGUAGE CHOOSER*/
@@ -363,6 +364,7 @@
 /*	USER IMAGE*/
 	.user-header-image {
 		width: 36px;
+		height: 36px;
 	}
 /*	LANGUAGE CHOOSER*/
 	.language-chooser {
@@ -512,6 +514,7 @@
 /*	USER IMAGE*/
 	.user-header-image {
 		width: 30px;
+		height: 30px;
 	}
 /*	MAIN LOGO*/
 	.main-logo-div {
