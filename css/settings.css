@@ -7,7 +7,7 @@
 }
 
 .main-user-info img {
-	border: 2px solid #34C38D;
+	border: 1.6px solid #34C38D;
 }
 
 /*SETTING INFO*/
@@ -120,7 +120,7 @@
 	width: 100%;
 	height: 487px;
 	border-radius: 8px 8px 0px 0px;
-	box-shadow: 0px -90px 84px -71px #696969 inset;
+	/*box-shadow: 0px -90px 84px -71px #696969 inset;*/
 	
 	background: url(../images/kodzima.jpg) 100% no-repeat;
 	background-position: center;
@@ -156,7 +156,7 @@
 
 .user-about-section {
 	width: 100%;
-	height: 180px;
+	height: 210px;
 	margin: 50px 0px 0px 0px;
 	
 	display: flex;

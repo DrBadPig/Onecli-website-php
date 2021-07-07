@@ -32,7 +32,7 @@
 	    echo '<link href="css/promo.css?1" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Промоматериалы</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "account"){
-	    echo '<link href="css/settings.css?4" rel="stylesheet">';
+	    echo '<link href="css/settings.css?5" rel="stylesheet">';
         echo '<title>ONECLI. - Тестовая версия / Настройки</title>';
 	  }else if($_SERVER['QUERY_STRING'] == "lots"){
 	    echo '<link href="css/lots.css?5" rel="stylesheet">';

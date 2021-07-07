@@ -109,15 +109,23 @@
 					</svg></label>
 		            <input type="file" name="upload" id="uploadava" style="opacity: 0;position: absolute;z-index: -1;" onChange="loa(this)">
 		          </form>
+<!--
 					<div class="user-login div-flex-two">
 						<input type="text" id="fName">
 					</div>
+-->
 				</div>
 				<div class="profile-info-wrapper t-bold-300">
 				<div class="photo-disclaimer">
                         <p>Изображение должно быть формата .JPG или .PNG. Максимальный размер: 2 мб.</p>
                     </div>
 					<div class="user-about-section">
+						<div class="div-flex df-spaceb">
+							<span class="t-uppercase">Имя:</span>
+							<div>
+								<input type="text" id="fName">
+							</div>
+						</div>
 						<div class="div-flex df-spaceb">
 							<span class="t-uppercase">Должность:</span>
 							<div>
