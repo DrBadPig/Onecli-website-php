@@ -76,7 +76,7 @@
 	position: fixed;
 	top: 69px;
 	right: 40px;
-	z-index: 200;
+	z-index: 1020;
 	border-radius: 0px 0px 16px 16px;
 	
 	overflow: auto;
@@ -117,8 +117,8 @@
 }
 
 .language-chooser-menu div .active {
-	border: 1px solid #34C38D;
-	border-radius: 30px;
+	border: 1.6px solid #34C38D;
+	border-radius: 50%;
 	width: 28px;
 	height: 28px;
 }
@@ -149,7 +149,7 @@
 	position: fixed;
 	top: 69px;
 	right: 0px;
-	z-index: 1030;
+	z-index: 1010;
 }
 
 .user-submenu ul {
@@ -345,6 +345,12 @@
 	padding: 13px 0px 13px 40px;
 	margin: 0px 0px 0px 0px;
 	font-size: 14px;
+}
+
+/*BACKGROUND FOR MENU*/
+
+.active-back {
+    background-color: #34c38d;
 }
 
 /*MEDIA 1366*/
